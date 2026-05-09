@@ -1,0 +1,229 @@
+﻿<Page x:Class="RummiKubUI.PrivateChatPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RummiKubUI.Converters"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PrivateChatPage"
+     Background="#0A1128">
+
+    <Page.Resources>
+        <Style x:Key="MenuButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Foreground" Value="#333333"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                         BorderBrush="{TemplateBinding BorderBrush}"
+                         BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                       VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#F0F0F0"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="NoHoverButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <local:TextColorConverter x:Key="textcolorconverter"/>
+        <local:BubbleBackgroundConverter x:Key="bubblebackgroundconverter"/>
+        <local:AlignmentConverter x:Key="alignmentconverter"/>
+        <local:EditButtonConverter x:Key="editbuttonconverter"/>
+        <local:DeleteButtonConverter x:Key="deletebuttonconverter"/>
+        <local:ImageConverter x:Key="imageConverter"/>
+        <local:MessageDateConverter x:Key="messgaedateconverter"/>
+        <!-- Bubble Styles -->
+        <LinearGradientBrush x:Key="UserMessageBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#FF0084FF" Offset="0"/>
+            <GradientStop Color="#FF00C7FF" Offset="1"/>
+        </LinearGradientBrush>
+
+
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+
+        <!-- Message Template -->
+        <DataTemplate x:Key="MessageTemplate">
+            <Grid Margin="0,8">
+                <Border Background="{Binding SenderId, Converter={StaticResource bubblebackgroundconverter}}"
+                        CornerRadius="15"
+                        Padding="12"
+                        HorizontalAlignment="{Binding SenderId, Converter={StaticResource alignmentconverter}}"
+                        MaxWidth="400">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="8" 
+                                        ShadowDepth="2" 
+                                        Opacity="0.1"/>
+                    </Border.Effect>
+
+                    <StackPanel>
+                        <Button Width="20" Height="20" HorizontalAlignment="Left" Background="Transparent" BorderThickness="0" x:Name="Options_Button" FontSize="15" Content="..." Click="Options_Button_Click"/>
+                        <!-- Message Content -->
+                        <TextBlock Text="{Binding Msg}"
+                                   Foreground="{Binding SenderId, Converter={StaticResource textcolorconverter}}"
+                                   FontSize="14"
+                                   TextWrapping="Wrap"
+                                   FontFamily="Segoe UI"/>
+
+                        <!-- Time and Edit Status -->
+                        <StackPanel Orientation="Horizontal" 
+                                  HorizontalAlignment="Right"
+                                  Margin="0,4,0,0">
+                            <TextBlock Text="{Binding SendingTime,Converter={StaticResource messgaedateconverter} }"
+                                     Foreground="Black"
+                                     FontSize="10"
+                                     Opacity="0.7"
+                                     Margin="0,0,4,0"/>
+
+                            <TextBlock Text="(edited)"
+                                     Visibility="{Binding IsEdited, Converter={StaticResource BoolToVis}}"
+                                     Foreground="Black"
+                                     FontSize="10"
+                                     Opacity="0.7"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#B3E5FC" Offset="0"/>
+                <!-- Light Blue -->
+                <GradientStop Color="#D1C4E9" Offset="1"/>
+                <!-- Lavender -->
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Border Background="#FFFFFF" BorderBrush="#B3E5FC" BorderThickness="2" CornerRadius="10" Width="350" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0">
+                    <Ellipse Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="{Binding IconName, Converter={StaticResource imageConverter}}"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="{Binding Username}" HorizontalAlignment="Center" FontSize="20"/>
+                </StackPanel>
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
+                    <ItemsControl x:Name="lstview" ItemsSource="{Binding}"
+                        ItemTemplate="{StaticResource MessageTemplate}"
+                        Margin="20">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Vertical"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </ScrollViewer>
+                <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="Text:" FontSize="20" HorizontalAlignment="Left" Margin="30"/>
+                    <TextBox x:Name="TextMessage" Width="150" HorizontalAlignment="Right" Height="30" KeyDown="Message_KeyDown" Margin="10"/>
+                </StackPanel>
+            </Grid>
+
+        </Border>
+        <StackPanel Grid.Row="0" x:Name="HeadBackButtonPanel" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <Popup x:Name="ContextMenuPopup"
+       StaysOpen="False"
+       Placement="AbsolutePoint"
+       AllowsTransparency="True"
+       PopupAnimation="Fade">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <!-- Popup Box -->
+                <Border Background="White" Grid.Column="1"
+              CornerRadius="5"
+              BorderBrush="Black"
+              BorderThickness="1"
+              Padding="5">
+
+
+                    <StackPanel Margin="10">
+                        <Button Content="Description📜"
+  x:Name="DescriptionButton"
+Style="{StaticResource MenuButtonStyle}"
+Click="ShowDescription"/>
+                        <Button Content="Edit✎"
+                         x:Name="EditButton"
+                      Style="{StaticResource MenuButtonStyle}"
+                       Visibility="{Binding .,Converter={StaticResource editbuttonconverter}}"
+                      Click="EditMessage"/>
+                        <Button Content="Delete🗑"
+                        x:Name="DeleteButton"
+                      Style="{StaticResource MenuButtonStyle}"
+                      Visibility="{Binding .,Converter={StaticResource deletebuttonconverter}}"
+                      Click="DeleteMessage"/>
+
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Popup>
+        <!-- Edit Message Overlay-->
+        <Grid Width="400" Height="100" Visibility="Hidden" x:Name="EditBox">
+            <StackPanel>
+                <TextBox x:Name="EditText" Text="{Binding Msg}"  Height="60"/>
+                <Button Width="100" Height="30" Content="Edit" FontSize="20" Click="ConfirmEdit"  HorizontalAlignment="Right"/>
+            </StackPanel>
+        </Grid>
+        <!--  Message Description Overlay-->
+        <Border x:Name="MessageDescriptionBox" Background="White" Visibility="Collapsed" Width="250" Height="300" BorderBrush="Black" BorderThickness="2" CornerRadius="40">
+            <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+                <TextBlock Text="Message Description" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="0"/>
+                <Button x:Name="CloseButton" Content="x" Style="{StaticResource NoHoverButtonStyle}" FontSize="20" Width="30" Height="30" Foreground="Red" Background="Transparent" BorderThickness="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="206,0,0,0" Click="CloseButton_Click" />
+                <StackPanel Grid.Row="1" Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,20">
+                        <TextBlock Text="Sent By:" Margin="30,0,0,0" FontSize="20"/>
+                        <TextBlock Text="{Binding SentBy}" FontSize="20"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,20">
+                        <TextBlock Text="At:" Margin="30,0,0,0" FontSize="20"/>
+                        <TextBlock Text="{Binding SendingTime,StringFormat='{}{0:yyyy-MM-dd HH:mm}'}" FontSize="20"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,20">
+                        <TextBlock Text="Edited:" Margin="30,0,0,0" FontSize="20"/>
+                        <TextBlock Text="{Binding IsEdited}" FontSize="20"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

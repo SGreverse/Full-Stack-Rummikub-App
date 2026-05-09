@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="1f898bed-f1ed-44c9-9147-d5c6eb504299" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item53.xsd" MetadataType="Schema" ID="8350c592-538f-4c80-ae1e-d135318edf14" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd7" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="9c635091-e144-4d4f-b8bf-7e3624150c23" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd1" />
+    <MetadataFile FileName="item57.xsd" MetadataType="Schema" ID="4031ef6a-4e63-41bf-b799-8be8a300464a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd11" />
+    <MetadataFile FileName="item55.xsd" MetadataType="Schema" ID="f5fb1a3e-1fcd-4f0e-acfe-9d0d03251854" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd9" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="db3c7754-d583-4f75-9869-884d950dd03b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd0" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="a2c39025-c23c-4820-b9b4-2189f9f5d4ce" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd2" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="2cabfce5-e735-4ce9-9531-4babfcfc9e56" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd4" />
+    <MetadataFile FileName="item51.xsd" MetadataType="Schema" ID="d5985acc-a805-4ef4-b460-b4a9a6098464" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd5" />
+    <MetadataFile FileName="item52.xsd" MetadataType="Schema" ID="3be4d800-0223-4930-890e-633a13a3a8a3" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd6" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="e8ea386a-99b6-41c0-bcfa-255e9e12b9cd" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?disco" />
+    <MetadataFile FileName="RummiKubService1.wsdl" MetadataType="Wsdl" ID="1bc74441-1c4a-4558-a5d8-80fe88c70377" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?wsdl" />
+    <MetadataFile FileName="item56.xsd" MetadataType="Schema" ID="cc8e596e-c78d-4912-b127-b593470c72e8" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd10" />
+    <MetadataFile FileName="item54.xsd" MetadataType="Schema" ID="cb1336e9-a9d6-4c32-ae65-a63664821061" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd8" />
+    <MetadataFile FileName="item4.xsd" MetadataType="Schema" ID="d7141d50-0a60-4e6d-97ee-e9712fc29376" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

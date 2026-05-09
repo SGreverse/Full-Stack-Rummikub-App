@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" />
+  <xs:complexType name="BaseEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseEntity" nillable="true" type="tns:BaseEntity" />
+  <xs:complexType name="PlayerInGame">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Player">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" minOccurs="0" name="CopyOfPlayerBoard" nillable="true" type="q1:PlayerBoard" />
+          <xs:element minOccurs="0" name="Has_Updated_Board" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Original_total_value_of_tiles" type="xs:int" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/RummiKubClasses" minOccurs="0" name="This_PlayerState" type="q2:PlayerState" />
+          <xs:element minOccurs="0" name="Total_value_of_tiles" type="xs:int" />
+          <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" minOccurs="0" name="playerBoard" nillable="true" type="q3:PlayerBoard" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PlayerInGame" nillable="true" type="tns:PlayerInGame" />
+  <xs:complexType name="Player">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:User">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ExpierincePoints" type="xs:int" />
+          <xs:element minOccurs="0" name="GamesPlayed" type="xs:int" />
+          <xs:element minOccurs="0" name="GamesWon" type="xs:int" />
+          <xs:element minOccurs="0" name="Level" type="xs:int" />
+          <xs:element minOccurs="0" name="Score" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Player" nillable="true" type="tns:Player" />
+  <xs:complexType name="User">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IconName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsAdmin" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+          <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" minOccurs="0" name="User_City" nillable="true" type="q4:City" />
+          <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+</xs:schema>

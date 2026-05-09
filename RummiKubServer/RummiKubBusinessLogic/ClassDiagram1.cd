@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RummiKubClasses.GamePieces.Chat" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAAAAAAIAAAAACAAgAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ChatClasses\Chat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GamePieces.Board" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABAEAAACCwAAAAoAAAAAEABAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>GameClasses\Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GamePieces.Game" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIACAAIAACAgBAQAggBAgAkACAAgAAIEAAAACDAAIkI=</HashCode>
+      <FileName>GameClasses\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GamePieces.PlayerNode" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAIAAAA=</HashCode>
+      <FileName>GameClasses\PlayerNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GamePieces.PlayerOrderList" Collapsed="true">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAEAAAAABAAgABAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>GameClasses\PlayerOrderList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GamePieces.TileBank" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAAAEAA=</HashCode>
+      <FileName>GameClasses\TileBank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ChatClasses.MessageAction" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACA=</HashCode>
+      <FileName>ChatClasses\MessageAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ChatObjects.ProfanityDetector" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAIAAAAAQIAAAAAAAAAAAA=</HashCode>
+      <FileName>ChatClasses\ProfanityDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GameClasses.AddingTileAction" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>GameClasses\ActionClasses\AddingTileAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GameClasses.GameAction" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAIACEAAAAAAAAAAAAAAAACARAAAgA=</HashCode>
+      <FileName>GameClasses\ActionClasses\GameAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GameClasses.InsertingSeriesAction" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>GameClasses\ActionClasses\InsertingSeriesAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummikubBusinessLogic.RummiKubLogic" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQkAyMBAAABYAEJ4iAMBhEZQdaiRAAA0QCiSCQUIhDA=</HashCode>
+      <FileName>RummiKubLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.Security.BcryptSecurity" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\BcryptSecurity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.RSASecurity" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\RSASecurity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.Tiles.ColorSeries" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RummiKubTileSeries\ColorSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.Tiles.RisingSeries" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQABAAAAAACAgAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>RummiKubTileSeries\RisingSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.Tiles.TileSeries" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAEQAAAAAAAEiAwAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>RummiKubTileSeries\TileSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.StatusCodes.GetRequestStatusCode&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StatusCodes\GetRequestStatusCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.StatusCodes.PostRequestStatusCode" Collapsed="true">
+    <Position X="5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>StatusCodes\PostRequestStatusCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.StatusCodes.StatusMessages" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>StatusCodes\StatusMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RummiKubClasses.ChatClasses.MessageActionType" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ChatClasses\MessageAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

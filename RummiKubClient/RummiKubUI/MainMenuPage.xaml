@@ -1,0 +1,115 @@
+﻿<Page x:Class="RummiKubUI.MainMenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:RummiKubUI.UserControls"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainMenu"
+      Background="#0A1128">
+    <Page.Resources>
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                        Padding="4,2" 
+                        BorderThickness="0"
+                        BorderBrush="DarkGray" 
+                        CornerRadius="3" 
+                        Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Viewbox Stretch="Fill" >
+
+        <Grid Width="800" Height="450">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <!-- User Info Bar -->
+            <Grid Grid.Row="0" Background="#1E2749" Width="800">
+                <!-- Darker Bar -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- User Info -->
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="UserInfoButton" Background="Transparent" VerticalAlignment="Top" Click="HeadToUserInfo" BorderThickness="0" IsEnabled="False"  RenderTransformOrigin="0.5,0.5" >
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                            <ControlTemplate.Triggers>
+                                                <!--Visual state for when the button is enabled.-->
+                                                <Trigger Property="IsEnabled" Value="True">
+                                                    <Setter Property="Opacity" Value="1"/>
+                                                </Trigger>
+
+                                                <!--Visual state for when the button is disabled.-->
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" Value="0.5"/>
+                                                </Trigger>
+
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter Property="Opacity" Value="0.8"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" Value="0.6"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                        <StackPanel VerticalAlignment="Top" x:Name="UserDisplayPanel"></StackPanel>
+                    </Button>
+                    <Button x:Name="HeadToContact" Margin="50,0,0,0" Foreground="White" Content="Contact Us" Style="{StaticResource MyButtonStyle}" Click="HeadToContact_Click"/>
+                </StackPanel>
+
+
+
+
+                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center"/>
+
+                <StackPanel Grid.Column="3" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="Friends" FontSize="20" Foreground="White" Background="Transparent" BorderThickness="0" Click="HeadToFriendPage" Style="{StaticResource MyButtonStyle}"/>
+
+                    <Button x:Name="LoginButton" Content="Login" Foreground="White" Padding="10,5" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Click="HeadToLoginPage" Style="{StaticResource MyButtonStyle}"/>
+                    <Button x:Name="RegisterButton" Content="Register" Foreground="White" Padding="10,5" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Click="HeadToRegister" Style="{StaticResource MyButtonStyle}"/>
+                    <Button x:Name="LogOutButton" Content="Log Out" BorderThickness="0" Foreground="White" Padding="10,5" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource MyButtonStyle}" Click="LogOutButton_Click"/>
+                </StackPanel>
+            </Grid>
+
+            <WrapPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="LeaderBoard " Width="150" Height="100" Margin="10" Background="#2C3E50" Foreground="White" Click="HeadToLeaderBoard"/>
+                <Button Content="Rule Book 🎓" Width="150" Height="100" Margin="10" Background="#2C3E50" Foreground="White" Click="OpenRuleBookInBrowser"/>
+                <Button Content="Play Now 🃏" Width="150" Height="100" Margin="10" Background="#2C3E50" Foreground="White" Click="JoinGame"/>
+                <Button Content="Private Game 👥" Width="150" Height="100" Margin="10" Background="#2C3E50" Foreground="White" Click="HeadToPrivateGamePage"/>
+            </WrapPanel>
+        </Grid>
+
+    </Viewbox>
+</Page>

@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="RummiKubUI.UserControls.GameVisualUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RummiKubUI.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:UsernameConverter x:Key="usernameConverter"/>
+        <!-- Styles -->
+        <Style x:Key="PlayerHeaderStyle" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Background" Value="#e9ecef"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="WinnerStyle" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#28a745"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="8,4"/>
+        </Style>
+        <Style x:Key="RegularStyle" TargetType="TextBlock">
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="8,4"/>
+        </Style>
+        <Style x:Key="GameIdStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Foreground" Value="#6c757d"/>
+            <Setter Property="Margin" Value="0,5,0,0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="BorderStyle" TargetType="Border">
+            <Setter Property="BorderBrush" Value="#ddd"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Background" Value="#f9f9f9"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Border Style="{StaticResource BorderStyle}">
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" Text="#1" Style="{StaticResource PlayerHeaderStyle}"/>
+                    <TextBlock Grid.Column="1" Text="#2" Style="{StaticResource PlayerHeaderStyle}"/>
+                    <TextBlock Grid.Column="2" Text="#3" Style="{StaticResource PlayerHeaderStyle}"/>
+                    <TextBlock Grid.Column="3" Text="#4" Style="{StaticResource PlayerHeaderStyle}"/>
+                </Grid>
+
+                <Grid Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" Text="{Binding WinnerOrderList[0].Username, Converter={StaticResource usernameConverter}}" Style="{StaticResource WinnerStyle}"/>
+                    <TextBlock Grid.Column="1" Text="{Binding WinnerOrderList[1].Username, Converter={StaticResource usernameConverter}}" Style="{StaticResource RegularStyle}"/>
+                    <TextBlock Grid.Column="2" Text="{Binding WinnerOrderList[2].Username, Converter={StaticResource usernameConverter}}" Style="{StaticResource RegularStyle}"/>
+                    <TextBlock Grid.Column="3" Text="{Binding WinnerOrderList[3].Username, Converter={StaticResource usernameConverter}}" Style="{StaticResource RegularStyle}"/>
+                </Grid>
+
+                <TextBlock Text="{Binding GameId, StringFormat='Game #{0}'}" Style="{StaticResource GameIdStyle}"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

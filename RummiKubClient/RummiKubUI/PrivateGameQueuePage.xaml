@@ -1,0 +1,31 @@
+﻿<Page x:Class="RummiKubUI.PrivateGameQueuePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RummiKubUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PrivateGameQueuePage"
+      Background="Aqua">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:Name="GameCodeDisplay" FontSize="20" />
+            <TextBlock Text="In Queue:" FontSize="20"/>
+            <ItemsControl x:Name="lstview">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="👤"  FontSize="40" Margin="10,0,0,0"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+        <Button x:Name="StartButton" Content="Start" Width="100" Height="70" VerticalAlignment="Bottom" HorizontalAlignment="Right" Visibility="Hidden" Click="StartButton_Click"/>
+    </Grid>
+</Page>

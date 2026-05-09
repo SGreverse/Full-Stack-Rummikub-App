@@ -1,0 +1,164 @@
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+C:\Users\User\OneDrive\מסמכים\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+E:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Memory.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.dll
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.xml
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Memory.xml
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.xml
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.xml
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubBusinessLogic.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Memory.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubBusinessLogic.pdb
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Memory.xml
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.xml
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+C:\Users\User\Downloads\The Greatest RummiKub app ever made!!!!!!!!!! (1)\RummiKubServer\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubBusinessLogic.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubBusinessLogic.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+C:\Users\User\OneDrive\מסמכים\The Greatest RummiKub app ever made!!!!!!!!!!\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\DataBase\RummiKubDataBase.accdb
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\RummiKubService.pdb
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\RummiKubBusinessLogic.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\ViewModel.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\System.Memory.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\RummiKubBusinessLogic.pdb
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\RummiKubClasses.pdb
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\ViewModel.pdb
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\BCrypt.Net-Next.xml
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\System.Memory.xml
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\System.Numerics.Vectors.xml
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\bin\Debug\System.Buffers.xml
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.AssemblyReference.cache
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.csproj.CoreCompileInputs.cache
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\obj\Debug\RummiKub.58A00B6F.Up2Date
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.dll
+C:\RummiKubApplication\RummiKubApplication\RummiKubServer\RummiKubService\obj\Debug\RummiKubService.pdb

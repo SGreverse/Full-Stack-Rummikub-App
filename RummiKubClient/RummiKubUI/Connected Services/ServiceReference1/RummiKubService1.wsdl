@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="RummiKubService1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.GameClasses" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/System" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ChatClasses" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd11" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRummiKubService_InviteToGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:InviteToGame" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_InviteToGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InviteToGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_InviteResponse_InputMessage">
+    <wsdl:part name="parameters" element="tns:InviteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_InviteResponse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InviteResponseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_CreatePrivateGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePrivateGame" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_CreatePrivateGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePrivateGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_StartPrivateGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartPrivateGame" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_StartPrivateGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartPrivateGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ConnectToGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectToGame" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ConnectToGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectToGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_WaitForGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:WaitForGame" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_WaitForGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WaitForGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ExitWaitingQueue_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExitWaitingQueue" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ExitWaitingQueue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExitWaitingQueueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetGameQueuePlayerAmount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameQueuePlayerAmount" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetGameQueuePlayerAmount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameQueuePlayerAmountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ExecuteActionInGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteActionInGame" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ExecuteActionInGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteActionInGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetCurrentBoard_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentBoard" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetCurrentBoard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentBoardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_EndTurn_InputMessage">
+    <wsdl:part name="parameters" element="tns:EndTurn" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_EndTurn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EndTurnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ResetTurn_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResetTurn" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ResetTurn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResetTurnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PlayerFinished_InputMessage">
+    <wsdl:part name="parameters" element="tns:PlayerFinished" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PlayerFinished_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PlayerFinishedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PlayerSurrended_InputMessage">
+    <wsdl:part name="parameters" element="tns:PlayerSurrended" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PlayerSurrended_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PlayerSurrendedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetCurrentPlayerHand_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentPlayerHand" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetCurrentPlayerHand_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentPlayerHandResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_TakeTileFromBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:TakeTileFromBank" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_TakeTileFromBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TakeTileFromBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_TakeInitialTiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:TakeInitialTiles" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_TakeInitialTiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TakeInitialTilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_HasBoardChanged_InputMessage">
+    <wsdl:part name="parameters" element="tns:HasBoardChanged" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_HasBoardChanged_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HasBoardChangedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassTile_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassTile" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassTile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassTileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassSeries_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassSeries" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassSeries_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassSeriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetPlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlayer" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetPlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PlayerStateInGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:PlayerStateInGame" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PlayerStateInGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PlayerStateInGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassGamePieces_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassGamePieces" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassGamePieces_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassGamePiecesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassEntities_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassEntities" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassEntities_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassEntitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassActions_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassActions" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassActions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassActionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassChatClasses_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassChatClasses" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassChatClasses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassChatClassesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllUsers" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllCities_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCities" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllCities_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetLeaderBoard_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeaderBoard" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetLeaderBoard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeaderBoardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetImage_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetImage" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetImage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_SaveImage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveImage" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_SaveImage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetImageCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetImageCount" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetImageCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetImageCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllGamesByUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllGamesByUser" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllGamesByUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllGamesByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetPublicKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPublicKey" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetPublicKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPublicKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Logout_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Logout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllGameInvites_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllGameInvites" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllGameInvites_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllGameInvitesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetFriends_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFriends" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetFriends_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFriendsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_FriendRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:FriendRequest" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_FriendRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FriendRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ApproveFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:ApproveFriend" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ApproveFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ApproveFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllRequests_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllRequests" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllRequests_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllRequestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllNonFriends_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllNonFriends" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllNonFriends_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllNonFriendsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_IsUsernameUnique_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsUsernameUnique" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_IsUsernameUnique_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsUsernameUniqueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_IsEmailUnique_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsEmailUnique" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_IsEmailUnique_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsEmailUniqueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Register_InputMessage">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Register_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_DropTileFromHand_InputMessage">
+    <wsdl:part name="parameters" element="tns:DropTileFromHand" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_DropTileFromHand_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DropTileFromHandResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllDefaultIcons_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDefaultIcons" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllDefaultIcons_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDefaultIconsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_AddMessageToGameChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddMessageToGameChat" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_AddMessageToGameChat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddMessageToGameChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_RecieveRecentGameChatMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:RecieveRecentGameChatMessage" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_RecieveRecentGameChatMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RecieveRecentGameChatMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_SendMessageToPrivateChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageToPrivateChat" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_SendMessageToPrivateChat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageToPrivateChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_EditMessageInPrivateChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditMessageInPrivateChat" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_EditMessageInPrivateChat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditMessageInPrivateChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_DeleteMessageFromPrivateChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMessageFromPrivateChat" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_DeleteMessageFromPrivateChat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMessageFromPrivateChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_EnterPrivateChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnterPrivateChat" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_EnterPrivateChat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EnterPrivateChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllChatMessages_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllChatMessages" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_GetAllChatMessages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllChatMessagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ExitPrivateChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExitPrivateChat" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ExitPrivateChat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExitPrivateChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_SendProblemToAdmins_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendProblemToAdmins" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_SendProblemToAdmins_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendProblemToAdminsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ResolveProblem_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResolveProblem" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ResolveProblem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResolveProblemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_DeletePlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePlayer" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_DeletePlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_EditPlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditPlayer" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_EditPlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditPlayerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRummiKubService">
+    <wsdl:operation name="InviteToGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/InviteToGame" message="tns:IRummiKubService_InviteToGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/InviteToGameResponse" message="tns:IRummiKubService_InviteToGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InviteResponse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/InviteResponse" message="tns:IRummiKubService_InviteResponse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/InviteResponseResponse" message="tns:IRummiKubService_InviteResponse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreatePrivateGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/CreatePrivateGame" message="tns:IRummiKubService_CreatePrivateGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/CreatePrivateGameResponse" message="tns:IRummiKubService_CreatePrivateGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartPrivateGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/StartPrivateGame" message="tns:IRummiKubService_StartPrivateGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/StartPrivateGameResponse" message="tns:IRummiKubService_StartPrivateGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConnectToGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ConnectToGame" message="tns:IRummiKubService_ConnectToGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ConnectToGameResponse" message="tns:IRummiKubService_ConnectToGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WaitForGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/WaitForGame" message="tns:IRummiKubService_WaitForGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/WaitForGameResponse" message="tns:IRummiKubService_WaitForGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExitWaitingQueue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ExitWaitingQueue" message="tns:IRummiKubService_ExitWaitingQueue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ExitWaitingQueueResponse" message="tns:IRummiKubService_ExitWaitingQueue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameQueuePlayerAmount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetGameQueuePlayerAmount" message="tns:IRummiKubService_GetGameQueuePlayerAmount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetGameQueuePlayerAmountResponse" message="tns:IRummiKubService_GetGameQueuePlayerAmount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteActionInGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ExecuteActionInGame" message="tns:IRummiKubService_ExecuteActionInGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ExecuteActionInGameResponse" message="tns:IRummiKubService_ExecuteActionInGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentBoard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetCurrentBoard" message="tns:IRummiKubService_GetCurrentBoard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetCurrentBoardResponse" message="tns:IRummiKubService_GetCurrentBoard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EndTurn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/EndTurn" message="tns:IRummiKubService_EndTurn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/EndTurnResponse" message="tns:IRummiKubService_EndTurn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetTurn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ResetTurn" message="tns:IRummiKubService_ResetTurn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ResetTurnResponse" message="tns:IRummiKubService_ResetTurn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PlayerFinished">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PlayerFinished" message="tns:IRummiKubService_PlayerFinished_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PlayerFinishedResponse" message="tns:IRummiKubService_PlayerFinished_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PlayerSurrended">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PlayerSurrended" message="tns:IRummiKubService_PlayerSurrended_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PlayerSurrendedResponse" message="tns:IRummiKubService_PlayerSurrended_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentPlayerHand">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetCurrentPlayerHand" message="tns:IRummiKubService_GetCurrentPlayerHand_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetCurrentPlayerHandResponse" message="tns:IRummiKubService_GetCurrentPlayerHand_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TakeTileFromBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/TakeTileFromBank" message="tns:IRummiKubService_TakeTileFromBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/TakeTileFromBankResponse" message="tns:IRummiKubService_TakeTileFromBank_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TakeInitialTiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/TakeInitialTiles" message="tns:IRummiKubService_TakeInitialTiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/TakeInitialTilesResponse" message="tns:IRummiKubService_TakeInitialTiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HasBoardChanged">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/HasBoardChanged" message="tns:IRummiKubService_HasBoardChanged_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/HasBoardChangedResponse" message="tns:IRummiKubService_HasBoardChanged_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassTile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassTile" message="tns:IRummiKubService_PassTile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassTileResponse" message="tns:IRummiKubService_PassTile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassSeries">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassSeries" message="tns:IRummiKubService_PassSeries_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassSeriesResponse" message="tns:IRummiKubService_PassSeries_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetPlayer" message="tns:IRummiKubService_GetPlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetPlayerResponse" message="tns:IRummiKubService_GetPlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PlayerStateInGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PlayerStateInGame" message="tns:IRummiKubService_PlayerStateInGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PlayerStateInGameResponse" message="tns:IRummiKubService_PlayerStateInGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassGamePieces">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassGamePieces" message="tns:IRummiKubService_PassGamePieces_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassGamePiecesResponse" message="tns:IRummiKubService_PassGamePieces_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassEntities">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassEntities" message="tns:IRummiKubService_PassEntities_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassEntitiesResponse" message="tns:IRummiKubService_PassEntities_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassActions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassActions" message="tns:IRummiKubService_PassActions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassActionsResponse" message="tns:IRummiKubService_PassActions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassChatClasses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassChatClasses" message="tns:IRummiKubService_PassChatClasses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassChatClassesResponse" message="tns:IRummiKubService_PassChatClasses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetAllUsers" message="tns:IRummiKubService_GetAllUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetAllUsersResponse" message="tns:IRummiKubService_GetAllUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCities">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetAllCities" message="tns:IRummiKubService_GetAllCities_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetAllCitiesResponse" message="tns:IRummiKubService_GetAllCities_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLeaderBoard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetLeaderBoard" message="tns:IRummiKubService_GetLeaderBoard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetLeaderBoardResponse" message="tns:IRummiKubService_GetLeaderBoard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetImage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetImage" message="tns:IRummiKubService_GetImage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetImageResponse" message="tns:IRummiKubService_GetImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveImage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/SaveImage" message="tns:IRummiKubService_SaveImage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/SaveImageResponse" message="tns:IRummiKubService_SaveImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetImageCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetImageCount" message="tns:IRummiKubService_GetImageCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetImageCountResponse" message="tns:IRummiKubService_GetImageCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGamesByUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetAllGamesByUser" message="tns:IRummiKubService_GetAllGamesByUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetAllGamesByUserResponse" message="tns:IRummiKubService_GetAllGamesByUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/Login" message="tns:IRummiKubService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/LoginResponse" message="tns:IRummiKubService_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetPublicKey" message="tns:IRummiKubService_GetPublicKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetPublicKeyResponse" message="tns:IRummiKubService_GetPublicKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/Logout" message="tns:IRummiKubService_Logout_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/LogoutResponse" message="tns:IRummiKubService_Logout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/UpdateUser" message="tns:IRummiKubService_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/UpdateUserResponse" message="tns:IRummiKubService_UpdateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGameInvites">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetAllGameInvites" message="tns:IRummiKubService_GetAllGameInvites_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetAllGameInvitesResponse" message="tns:IRummiKubService_GetAllGameInvites_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFriends">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetFriends" message="tns:IRummiKubService_GetFriends_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetFriendsResponse" message="tns:IRummiKubService_GetFriends_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FriendRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/FriendRequest" message="tns:IRummiKubService_FriendRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/FriendRequestResponse" message="tns:IRummiKubService_FriendRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ApproveFriend" message="tns:IRummiKubService_ApproveFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ApproveFriendResponse" message="tns:IRummiKubService_ApproveFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllRequests">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetAllRequests" message="tns:IRummiKubService_GetAllRequests_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetAllRequestsResponse" message="tns:IRummiKubService_GetAllRequests_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllNonFriends">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetAllNonFriends" message="tns:IRummiKubService_GetAllNonFriends_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetAllNonFriendsResponse" message="tns:IRummiKubService_GetAllNonFriends_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUsernameUnique">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/IsUsernameUnique" message="tns:IRummiKubService_IsUsernameUnique_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/IsUsernameUniqueResponse" message="tns:IRummiKubService_IsUsernameUnique_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsEmailUnique">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/IsEmailUnique" message="tns:IRummiKubService_IsEmailUnique_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/IsEmailUniqueResponse" message="tns:IRummiKubService_IsEmailUnique_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/Register" message="tns:IRummiKubService_Register_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/RegisterResponse" message="tns:IRummiKubService_Register_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DropTileFromHand">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/DropTileFromHand" message="tns:IRummiKubService_DropTileFromHand_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/DropTileFromHandResponse" message="tns:IRummiKubService_DropTileFromHand_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultIcons">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetAllDefaultIcons" message="tns:IRummiKubService_GetAllDefaultIcons_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetAllDefaultIconsResponse" message="tns:IRummiKubService_GetAllDefaultIcons_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMessageToGameChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/AddMessageToGameChat" message="tns:IRummiKubService_AddMessageToGameChat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/AddMessageToGameChatResponse" message="tns:IRummiKubService_AddMessageToGameChat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RecieveRecentGameChatMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/RecieveRecentGameChatMessage" message="tns:IRummiKubService_RecieveRecentGameChatMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/RecieveRecentGameChatMessageResponse" message="tns:IRummiKubService_RecieveRecentGameChatMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToPrivateChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/SendMessageToPrivateChat" message="tns:IRummiKubService_SendMessageToPrivateChat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/SendMessageToPrivateChatResponse" message="tns:IRummiKubService_SendMessageToPrivateChat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditMessageInPrivateChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/EditMessageInPrivateChat" message="tns:IRummiKubService_EditMessageInPrivateChat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/EditMessageInPrivateChatResponse" message="tns:IRummiKubService_EditMessageInPrivateChat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMessageFromPrivateChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/DeleteMessageFromPrivateChat" message="tns:IRummiKubService_DeleteMessageFromPrivateChat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/DeleteMessageFromPrivateChatResponse" message="tns:IRummiKubService_DeleteMessageFromPrivateChat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EnterPrivateChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/EnterPrivateChat" message="tns:IRummiKubService_EnterPrivateChat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/EnterPrivateChatResponse" message="tns:IRummiKubService_EnterPrivateChat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllChatMessages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/GetAllChatMessages" message="tns:IRummiKubService_GetAllChatMessages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/GetAllChatMessagesResponse" message="tns:IRummiKubService_GetAllChatMessages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExitPrivateChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ExitPrivateChat" message="tns:IRummiKubService_ExitPrivateChat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ExitPrivateChatResponse" message="tns:IRummiKubService_ExitPrivateChat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendProblemToAdmins">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/SendProblemToAdmins" message="tns:IRummiKubService_SendProblemToAdmins_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/SendProblemToAdminsResponse" message="tns:IRummiKubService_SendProblemToAdmins_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResolveProblem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ResolveProblem" message="tns:IRummiKubService_ResolveProblem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ResolveProblemResponse" message="tns:IRummiKubService_ResolveProblem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/DeletePlayer" message="tns:IRummiKubService_DeletePlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/DeletePlayerResponse" message="tns:IRummiKubService_DeletePlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditPlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/EditPlayer" message="tns:IRummiKubService_EditPlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/EditPlayerResponse" message="tns:IRummiKubService_EditPlayer_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRummiKubService" type="tns:IRummiKubService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InviteToGame">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/InviteToGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InviteResponse">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/InviteResponse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreatePrivateGame">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/CreatePrivateGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartPrivateGame">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/StartPrivateGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConnectToGame">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ConnectToGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WaitForGame">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/WaitForGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExitWaitingQueue">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ExitWaitingQueue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameQueuePlayerAmount">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetGameQueuePlayerAmount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteActionInGame">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ExecuteActionInGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentBoard">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetCurrentBoard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EndTurn">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/EndTurn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetTurn">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ResetTurn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PlayerFinished">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PlayerFinished" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PlayerSurrended">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PlayerSurrended" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentPlayerHand">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetCurrentPlayerHand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TakeTileFromBank">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/TakeTileFromBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TakeInitialTiles">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/TakeInitialTiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HasBoardChanged">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/HasBoardChanged" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassTile">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassTile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassSeries">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassSeries" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlayer">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetPlayer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PlayerStateInGame">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PlayerStateInGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassGamePieces">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassGamePieces" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassEntities">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassEntities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassActions">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassActions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassChatClasses">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassChatClasses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllUsers">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetAllUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCities">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetAllCities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLeaderBoard">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetLeaderBoard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetImage">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveImage">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/SaveImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetImageCount">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetImageCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGamesByUser">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetAllGamesByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicKey">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetPublicKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGameInvites">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetAllGameInvites" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriends">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetFriends" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FriendRequest">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/FriendRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveFriend">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ApproveFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllRequests">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetAllRequests" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllNonFriends">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetAllNonFriends" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUsernameUnique">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/IsUsernameUnique" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsEmailUnique">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/IsEmailUnique" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DropTileFromHand">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/DropTileFromHand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultIcons">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetAllDefaultIcons" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMessageToGameChat">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/AddMessageToGameChat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecieveRecentGameChatMessage">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/RecieveRecentGameChatMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToPrivateChat">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/SendMessageToPrivateChat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditMessageInPrivateChat">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/EditMessageInPrivateChat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMessageFromPrivateChat">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/DeleteMessageFromPrivateChat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnterPrivateChat">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/EnterPrivateChat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllChatMessages">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/GetAllChatMessages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExitPrivateChat">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ExitPrivateChat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendProblemToAdmins">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/SendProblemToAdmins" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResolveProblem">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ResolveProblem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlayer">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/DeletePlayer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditPlayer">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/EditPlayer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RummiKubService1">
+    <wsdl:port name="BasicHttpBinding_IRummiKubService" binding="tns:BasicHttpBinding_IRummiKubService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

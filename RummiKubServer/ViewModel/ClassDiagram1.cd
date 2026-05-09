@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ViewModel.AllPlayedGamesDB" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAAAIQAAAAAAAAAAAAAkEAAAAAAAAEAABCAAA=</HashCode>
+      <FileName>AllPlayedGamesDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.BaseDB" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCQAAEAAAAAQAAIACAABAAAAAkUAAABAAAAAQEBSAAA=</HashCode>
+      <FileName>BaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.ChangeEntity" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ChangeEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.ChatDB" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="ViewModel.BaseDB" ManuallyRouted="true">
+      <Path>
+        <Point X="6.75" Y="1.062" />
+        <Point X="6.75" Y="1.26" />
+        <Point X="4.862" Y="1.26" />
+        <Point X="4.862" Y="2.596" />
+        <Point X="5" Y="2.596" />
+        <Point X="5" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAQAAAAAAAAAAAAAkEAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>ChatDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.CityDB" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAACAQAAAAAAAAAAAAA0EAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>CityDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.ContactDB" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAQAAAAAACAAAAAAkEAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>ContactDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.FriendDB" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAkEAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>FriendDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.LeaderBoardDB" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABEAAAKAQAAAABAAAAAAAAkEAIAAAAAAAoABCAAA=</HashCode>
+      <FileName>LeaderBoardDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.UserDB" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAQAAAAAAAAAAkCAAAAAAAAAgABAAAA=</HashCode>
+      <FileName>UserDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="ViewModel.CreateSql" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

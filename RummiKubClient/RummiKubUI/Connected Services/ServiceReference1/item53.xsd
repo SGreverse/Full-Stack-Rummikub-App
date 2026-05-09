@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses" />
+  <xs:complexType name="City">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" base="q1:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CityName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="City" nillable="true" type="tns:City" />
+  <xs:complexType name="GameWinnerOrderList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GameWinnerOrder" nillable="true" type="tns:GameWinnerOrder" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GameWinnerOrderList" nillable="true" type="tns:GameWinnerOrderList" />
+  <xs:complexType name="GameWinnerOrder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameId" type="xs:int" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/RummiKubClasses" minOccurs="0" name="WinnerOrderList" nillable="true" type="q2:ArrayOfVisualDisplayOfPlayer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GameWinnerOrder" nillable="true" type="tns:GameWinnerOrder" />
+  <xs:complexType name="PlayerList">
+    <xs:sequence>
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" minOccurs="0" maxOccurs="unbounded" name="Player" nillable="true" type="q3:Player" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlayerList" nillable="true" type="tns:PlayerList" />
+  <xs:complexType name="CityList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="City" nillable="true" type="tns:City" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CityList" nillable="true" type="tns:CityList" />
+  <xs:complexType name="UserProblem">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" base="q4:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="UserProblem" nillable="true" type="tns:UserProblem" />
+</xs:schema>

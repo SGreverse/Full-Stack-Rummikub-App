@@ -1,0 +1,64 @@
+﻿<Page x:Class="RummiKubUI.UserMenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RummiKubUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="UserMenuPage"
+      Background="#0A192F">
+    <Page.Resources>
+        <ResourceDictionary>
+            <Style x:Key="MenuButtonStyle" TargetType="ToggleButton">
+                <Setter Property="Background" Value="#1E3A8A"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderBrush" Value="#4299E1"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ToggleButton">
+                            <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#2C5282"/>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="True">
+                                    <Setter Property="Background" Value="#4299E1"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid Width="800" Height="450">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" x:Name="HeadBackButtonPanel"  VerticalAlignment="Top" HorizontalAlignment="Left">
+
+            </StackPanel>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                <ToggleButton x:Name="StatisticsButton" Content="Statistics" Width="150" Height="30" Style="{StaticResource MenuButtonStyle}"  Checked="StatisticsButton_Checked" Unchecked="StatisticsButton_Unchecked"/>
+                <ToggleButton x:Name="GameHistoryButton" Content="Game History" Width="150" Height="30" Style="{StaticResource MenuButtonStyle}" Checked="GameHistoryButton_Checked" Unchecked="GameHistoryButton_Unchecked"/>
+                <ToggleButton x:Name="UserInfoButton" Content="User Info" Width="150" Height="30" Style="{StaticResource MenuButtonStyle}" Checked="UserInfoButton_Checked"  Unchecked="UserInfoButton_Unchecked" />
+            </StackPanel>
+            
+            <Frame x:Name="ContentFrame" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+
+
+            <TextBlock x:Name="CurrentSelectionLabel" Grid.Row="0" HorizontalAlignment="Right" Margin="20" VerticalAlignment="Bottom" Foreground="White" FontSize="16" Text="Statistics"/>
+        </Grid>
+    </Viewbox>
+</Page>

@@ -1,0 +1,17 @@
+﻿<Application x:Class="RummiKubUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RummiKubUI"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <LinearGradientBrush x:Key="TopShadow" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#AA000000" Offset="0.0"/>
+            <GradientStop Color="Transparent" Offset="1.0"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="BottomShadow" StartPoint="0,1" EndPoint="0,0">
+            <GradientStop Color="#AA000000" Offset="0.0"/>
+            <GradientStop Color="Transparent" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>

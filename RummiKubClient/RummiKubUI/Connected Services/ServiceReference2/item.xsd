@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.Exceptions" />
+  <xs:element name="Hello">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Hello2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="t" nillable="true" type="q1:Tile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Hello2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="Hello2Result" nillable="true" type="q2:Tile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValiDateRisingSeries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="t" nillable="true" type="q3:ArrayOfTile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValiDateRisingSeriesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ValiDateRisingSeriesResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValiDateColorSeries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="t" nillable="true" type="q4:ArrayOfTile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValiDateColorSeriesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ValiDateColorSeriesResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PassTile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="j" nillable="true" type="q5:Joker" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="t" nillable="true" type="q6:Tile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PassTileResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PassSeries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="ts" nillable="true" type="q7:TileSeries" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="rs" nillable="true" type="q8:RisingSeries" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="cs" nillable="true" type="q9:ColorSeries" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PassSeriesResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PassGamePieces">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" minOccurs="0" name="b" nillable="true" type="q10:Board" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" minOccurs="0" name="pb" nillable="true" type="q11:PlayerBoard" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" minOccurs="0" name="tb" nillable="true" type="q12:TileBank" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PassGamePiecesResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PassExceptions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/RummiKubClasses.Exceptions" minOccurs="0" name="se" nillable="true" type="q13:SetException" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/RummiKubClasses.Exceptions" minOccurs="0" name="ge" nillable="true" type="q14:GameException" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PassExceptionsResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RummiKubClasses.PlayingEntities.BaseEntity" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.PlayingEntities.Player" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAACAAAgAgAAAAAAAAAAAAAABAACAAQAAAAA=</HashCode>
+      <FileName>PlayingEntities\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.PlayingEntities.PlayerInGame" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAAQAAAAAAgAAgwAAIAAgAAAAAAAFAIEAgACCAAA=</HashCode>
+      <FileName>PlayingEntities\PlayerInGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.PlayingEntities.User" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAkQAAAAAACQAAAAACAAAAAAAAAAg=</HashCode>
+      <FileName>PlayingEntities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.City" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.CityList" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\CityList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.FriendConnection" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\FriendConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.FriendConnectionList" Collapsed="true">
+    <Position X="2" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\FriendConnectionList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.GameInvite" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\GameInvite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.GameInviteList" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\GameInviteList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.GameList" Collapsed="true">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\GameList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.GameWinnerOrder" Collapsed="true">
+    <Position X="14" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\GameWinnerOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.GameWinnerOrderList" Collapsed="true">
+    <Position X="14" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\GameWinnerOrderList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.PlayerConnection" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAgAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\PlayerConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.PlayerList" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\UserList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.UserProblem" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\UserProblem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.ObjectsForDataBase.UserProblemList" Collapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectsForDataBase\UserProblemList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GamePieces.Message" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAABAFAAAAEAA=</HashCode>
+      <FileName>ObjectsForDataBase\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.GamePieces.PlayerBoard" Collapsed="true">
+    <Position X="7.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAQAAAAAAAAAACAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayingEntities\PlayerBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.Tiles.Joker" Collapsed="true">
+    <Position X="11.25" Y="8" Width="1.5" />
+    <InheritanceLine Type="RummiKubClasses.Tiles.Tile" FixedFromPoint="true">
+      <Path>
+        <Point X="11.625" Y="7.312" />
+        <Point X="11.625" Y="7.625" />
+        <Point X="12" Y="7.625" />
+        <Point X="12" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tiles\Joker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.Tiles.Tile" Collapsed="true">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAggAAAAAA=</HashCode>
+      <FileName>Tiles\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.VisualDisplayOfGame" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>VisualDisplayOfGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RummiKubClasses.VisualDisplayOfPlayer" Collapsed="true">
+    <Position X="11" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAIAAAAAAQAAAAAAAQAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>VisualDisplayOfPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RummiKubClasses.Tiles.RummiColor" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tiles\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RummiKubClasses.GameStates" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>VisualDisplayOfGame.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RummiKubClasses.PlayerState" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAQAAAAQA=</HashCode>
+      <FileName>VisualDisplayOfGame.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RummiKubClasses.GameType" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>VisualDisplayOfGame.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

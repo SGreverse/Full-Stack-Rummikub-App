@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rummikub Game Rules</title>
+    <style>
+        :root {
+            --primary: #1a5276;
+            --secondary: #2980b9;
+            --accent: #f39c12;
+            --text: #333;
+            --bg: #f9f9f9;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --shadow: rgba(0, 0, 0, 0.1);
+            --red: #e74c3c;
+            --orange: #f39c12;
+            --blue: #3498db;
+            --black: #2c3e50;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        .book {
+            width: 90%;
+            max-width: 800px;
+            height: 600px;
+            margin: 20px auto;
+            perspective: 1500px;
+        }
+        
+        .book-cover {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 10px;
+            box-shadow: 0 10px 20px var(--shadow);
+            transform-style: preserve-3d;
+            transform-origin: center left;
+            transition: transform 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+            z-index: 10;
+            cursor: pointer;
+        }
+        
+        .book-cover.open {
+            transform: rotateY(-180deg);
+            pointer-events: none;
+        }
+        
+        .book-cover h1 {
+            font-size: 2.5rem;
+            color: white;
+            text-shadow: 0 2px 4px var(--shadow);
+            margin-bottom: 20px;
+        }
+        
+        .book-cover p {
+            color: var(--light);
+            font-size: 1.1rem;
+            max-width: 80%;
+        }
+        
+        .cover-logo {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .tile {
+            width: 40px;
+            height: 50px;
+            border-radius: 5px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 5px;
+            font-weight: bold;
+            font-size: 1.5rem;
+            box-shadow: 0 3px 6px var(--shadow);
+        }
+        
+        .red { background-color: var(--red); color: white; }
+        .orange { background-color: var(--orange); color: white; }
+        .blue { background-color: var(--blue); color: white; }
+        .black { background-color: var(--black); color: white; }
+        
+        .book-pages {
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            perspective: 1500px;
+        }
+
+        .page {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border-radius: 5px;
+            padding: 40px;
+            box-shadow: 0 5px 15px var(--shadow);
+            overflow-y: auto;
+            backface-visibility: hidden;
+            transform-origin: center left;
+            transform-style: preserve-3d;
+            transition: transform 0.7s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.5s;
+            /* Add padding at the bottom to make room for fixed navigation */
+            padding-bottom: 80px;
+        }
+        .page-content {
+            overflow-y: auto;
+            height: calc(100% - 80px);
+        }
+        .page.hidden {
+            display: none;
+        }
+        
+        .page h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+        }
+        
+        .page h3 {
+            color: var(--secondary);
+            margin: 20px 0 10px;
+        }
+        
+        .page p, .page li {
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        
+        .page ul {
+            padding-left: 20px;
+        }
+        
+        /* Make navigation fixed at the bottom of the page */
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 15px 20px;
+            background-color: white;
+            border-top: 1px solid var(--light);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            box-shadow: 0 -2px 10px var(--shadow);
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 0 0 5px 5px;
+        }
+        
+        /* Container for navigation to position it correctly */
+        .navigation-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav-btn {
+            background-color: var(--secondary);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            align-items: center;
+            transition: background-color 0.3s;
+        }
+        
+        .nav-btn:hover {
+            background-color: var(--primary);
+        }
+        
+        .nav-btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .page-indicator {
+            font-size: 0.9rem;
+            color: var(--dark);
+        }
+        
+        .tile-examples {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .example-series {
+            display: flex;
+            margin: 0 10px 20px;
+            justify-content: center;
+        }
+        
+        .example-tile {
+            width: 35px;
+            height: 45px;
+            border-radius: 3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            margin: 0 2px;
+            box-shadow: 0 2px 5px var(--shadow);
+        }
+        
+        .joker {
+            background: linear-gradient(45deg, var(--red), var(--blue), var(--orange), var(--black));
+            color: white;
+            font-size: 0.7rem;
+            text-align: center;
+        }
+        
+        .highlight {
+            background-color: #ffff99;
+            padding: 2px 4px;
+            font-weight: bold;
+        }
+        
+        .table-of-contents {
+            margin: 20px 0;
+        }
+        
+        .toc-item {
+            cursor: pointer;
+            margin-bottom: 10px;
+            color: var(--secondary);
+            transition: color 0.3s;
+        }
+        
+        .toc-item:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        
+        /* Page flip animation */
+        .page.flipping-prev {
+            animation: flipPrev 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+        }
+        
+        .page.flipping-next {
+            animation: flipNext 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+        }
+        
+        @keyframes flipNext {
+            from { transform: rotateY(0); }
+            to { transform: rotateY(-180deg); }
+        }
+        
+        @keyframes flipPrev {
+            from { transform: rotateY(-180deg); }
+            to { transform: rotateY(0); }
+        }
+        
+        .footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.8rem;
+            color: var(--dark);
+        }
+        
+        
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .book {
+                height: 500px;
+            }
+            
+            .page {
+                padding: 20px;
+                padding-bottom: 80px;
+            }
+            
+            .book-cover h1 {
+                font-size: 1.8rem;
+            }
+            
+            .navigation {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="book">
+            <div class="book-cover" id="cover">
+                <div class="cover-logo">
+                    <div class="tile red">8</div>
+                    <div class="tile blue">8</div>
+                    <div class="tile orange">8</div>
+                </div>
+                <h1>Rummikub</h1>
+                <p>Official Game Rules & Instructions</p>
+                <p style="margin-top: 30px; font-size: 0.9rem;">Click to Open</p>
+            </div>
+            
+            <div class="book-pages" id="bookPages">
+                <!-- Table of Contents -->
+                <div class="page" id="page0">
+                    <div class="page-content">
+                        <h2>Table of Contents</h2>
+                        <div class="table-of-contents">
+                            <div class="toc-item" data-page="1">1. Game Overview</div>
+                            <div class="toc-item" data-page="2">2. Game Setup</div>
+                            <div class="toc-item" data-page="3">3. Tiles & Series</div>
+                            <div class="toc-item" data-page="4">4. Playing the Game</div>
+                            <div class="toc-item" data-page="5">5. Game Mechanics</div>
+                            <div class="toc-item" data-page="6">6. Advanced Rules</div>
+                            <div class="toc-item" data-page="7">7. Game End & Scoring</div>
+                            <div class="toc-item" data-page="8">8. Online Features</div>
+                        </div>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn" disabled>← Back</button>
+                            <div class="page-indicator" id="pageIndicator">Page 1 of 9</div>
+                            <button class="nav-btn" id="nextBtn">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Page 1: Game Overview -->
+                <div class="page hidden" id="page1">
+                    <div class="page-content">
+                        <h2>1. Game Overview</h2>
+                        <p>Rummikub is a tile-based game that combines elements of rummy and mahjong, where players strategically form and manipulate sets and runs of tiles on the board.</p>
+                        
+                        <h3>Objective</h3>
+                        <p>The objective of Rummikub is to be the first player to use all the tiles from your player board by forming them into valid series on the game board.</p>
+                        
+                        <h3>Players</h3>
+                        <p>Rummikub can be played with 2 to 4 players. The game is most enjoyable with 3 or 4 players, but the 2-player version offers a more strategic experience.</p>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn1">← Back</button>
+                            <div class="page-indicator">Page 2 of 9</div>
+                            <button class="nav-btn" id="nextBtn1">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Page 2: Game Setup -->
+                <div class="page hidden" id="page2">
+                    <div class="page-content">
+                        <h2>2. Game Setup</h2>
+                        <h3>Starting the Game</h3>
+                        <p>When the game starts, each player is assigned <span class="highlight">14 tiles</span> from the bank. These tiles are placed on your player board and are only visible to you.</p>
+                        
+                        <h3>The Bank</h3>
+                        <p>The bank contains all the remaining tiles that have not been distributed to players. When players are required to draw a tile, they take it from this bank.</p>
+                        
+                        <h3>Turn Order</h3>
+                        <p>The current playing player is marked by a <span class="highlight">white glowing circle</span> on their icon. Play proceeds in a clockwise direction.</p>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn2">← Back</button>
+                            <div class="page-indicator">Page 3 of 9</div>
+                            <button class="nav-btn" id="nextBtn2">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Page 3: Tiles & Series -->
+                <div class="page hidden" id="page3">
+                    <div class="page-content">
+                        <h2>3. Tiles & Series</h2>
+                        <h3>Tile Definition</h3>
+                        <p>A tile is a card with a value ranging from 1-13 and one of the following colors: red, orange, blue, or black. There are 2 tiles of each color-value combination in the game.</p>
+                        
+                        <div class="tile-examples">
+                            <div class="example-tile red">7</div>
+                            <div class="example-tile orange">4</div>
+                            <div class="example-tile blue">12</div>
+                            <div class="example-tile black">3</div>
+                        </div>
+                        
+                        <h3>Jokers</h3>
+                        <p>There are 2 jokers in the game. A joker is a special tile that can substitute for any tile in a series, regardless of its color and value.</p>
+                        
+                        <div class="tile-examples">
+                            <div class="example-tile joker">JOKER</div>
+                        </div>
+                        
+                        <h3>Series Types</h3>
+                        <p>Tiles can be put on the board in series, each containing at least 3 tiles. There are two types of valid series:</p>
+                        
+                        <p><strong>1. Rising Series:</strong> A series where all tiles are the same color but in consecutive ascending order.</p>
+                        <div class="tile-examples">
+                            <div class="example-series">
+                                <div class="example-tile blue">3</div>
+                                <div class="example-tile blue">4</div>
+                                <div class="example-tile blue">5</div>
+                            </div>
+                        </div>
+                        
+                        <p><strong>2. Color Series:</strong> A series of tiles with the same value but different colors.</p>
+                        <div class="tile-examples">
+                            <div class="example-series">
+                                <div class="example-tile red">9</div>
+                                <div class="example-tile blue">9</div>
+                                <div class="example-tile black">9</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn3">← Back</button>
+                            <div class="page-indicator">Page 4 of 9</div>
+                            <button class="nav-btn" id="nextBtn3">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Page 4: Playing the Game -->
+                <div class="page hidden" id="page4">
+                    <div class="page-content">
+                        <h2>4. Playing the Game</h2>
+                        
+                        <h3>Initial Meld</h3>
+                        <p>To start playing tiles, you must first make an <span class="highlight">initial meld</span> with a total value of 30 or more. The value is calculated as the sum of all tiles you place on the board in your first move.</p>
+                        
+                        <p>Important: A joker's value is always counted as 0 for the purpose of reaching the 30-point threshold.</p>
+                        
+                        <h3>Adding a Series</h3>
+                        <p>To add a new series to the board:</p>
+                        <ol>
+                            <li>Select at least 3 tiles from your player board that form a valid series.</li>
+                            <li>Click the add (+) button to place them on the game board.</li>
+                        </ol>
+                        
+                        <h3>Adding to Existing Series</h3>
+                        <p>You can add tiles to series already on the board:</p>
+                        <ol>
+                            <li>Select the tile you want to add from your player board.</li>
+                            <li>Right-click on the existing series on the board.</li>
+                            <li>Select "Add Tile" from the context menu.</li>
+                        </ol>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn4">← Back</button>
+                            <div class="page-indicator">Page 5 of 9</div>
+                            <button class="nav-btn" id="nextBtn4">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Page 5: Game Mechanics -->
+                <div class="page hidden" id="page5">
+                    <div class="page-content">
+                        <h2>5. Game Mechanics</h2>
+                        
+                        <h3>Turn Actions</h3>
+                        <p>During your turn, you can:</p>
+                        <ul>
+                            <li>Create new series with your tiles (minimum 3 tiles per series)</li>
+                            <li>Add tiles to existing series on the board</li>
+                            <li>Rearrange tiles on the board (as long as all series remain valid)</li>
+                            <li>Split existing series into smaller valid series</li>
+                            <li>Use jokers to substitute for any tile</li>
+                        </ul>
+                        
+                        <h3>Turn End Conditions</h3>
+                        <p>To end your turn, every series on the board must be valid. If you cannot or choose not to play any tiles, you must draw one tile from the bank.</p>
+                        
+                        <h3>Reset Button</h3>
+                        <p>If you make a mistake during your turn or cannot create valid series with the moves you've made, you can click the <span class="highlight">reset button</span> to return the board to its state at the beginning of your turn.</p>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn5">← Back</button>
+                            <div class="page-indicator">Page 6 of 9</div>
+                            <button class="nav-btn" id="nextBtn5">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Page 6: Advanced Rules -->
+                <div class="page hidden" id="page6">
+                    <div class="page-content">
+                        <h2>6. Advanced Rules</h2>
+                        
+                        <h3>Joker Usage</h3>
+                        <p>Jokers are powerful tiles that substitute for any tile. However, they come with special rules:</p>
+                        <ul>
+                            <li>A joker's point value is always 0 for the initial meld.</li>
+                            <li>You can replace a joker on the board with the exact tile it represents from your player board.</li>
+                            <li>After replacing a joker, you must immediately use it in another valid series on the board.</li>
+                        </ul>
+                        
+                        <h3>Board Management</h3>
+                        <p>During your turn, you can rearrange tiles on the board in any way, as long as all series remain valid at the end of your turn. This allows for complex moves like:</p>
+                        <ul>
+                            <li>Breaking a 4-tile series to use one tile elsewhere</li>
+                            <li>Combining tiles from multiple series to form new ones</li>
+                            <li>Extending series with tiles from your player board</li>
+                        </ul>
+                        
+                        <h3>Admin Privileges</h3>
+                        <p>An Admin player can remove tiles freely by selecting them and clicking the remove button. This feature is useful for game management and correction of errors.</p>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn6">← Back</button>
+                            <div class="page-indicator">Page 7 of 9</div>
+                            <button class="nav-btn" id="nextBtn6">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Page 7: Game End & Scoring -->
+                <div class="page hidden" id="page7">
+                    <div class="page-content">
+                        <h2>7. Game End & Scoring</h2>
+                        
+                        <h3>Finishing the Game</h3>
+                        <p>When you successfully place all your tiles on the board and end your turn with 0 tiles, you have finished the game. You will need to wait until all other players finish or the game ends.</p>
+                        
+                        <h3>Game End Conditions</h3>
+                        <p>The game ends when:</p>
+                        <ul>
+                            <li>All players except one have finished (used all their tiles)</li>
+                            <li>The bank is empty and a player needs to draw a tile</li>
+                        </ul>
+                        
+                        <h3>Scoring & Ranking</h3>
+                        <p>After each game, players receive a score based on their performance. These scores determine your ranking in the leaderboard.</p>
+                        
+                        <h3>Experience Points</h3>
+                        <p>In addition to scores, you also earn experience points (XP) from games, which determine your level. Your level is a reflection of your overall gameplay experience and cannot be negative.</p>
+                        
+                        <h3>Surrender Penalty</h3>
+                        <p>If you surrender during a game, you automatically receive a point penalty. To surrender, click the menu button and select "Surrender".</p>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn7">← Back</button>
+                            <div class="page-indicator">Page 8 of 9</div>
+                            <button class="nav-btn" id="nextBtn7">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Page 8: Online Features -->
+                <div class="page hidden" id="page8">
+                    <div class="page-content">
+                        <h2>8. Online Features</h2>
+                        
+                        <h3>Public Queue</h3>
+                        <p>Join the public queue to be matched with other players looking for a game.</p>
+                        
+                        <h3>Leaderboard</h3>
+                        <p>The leaderboard displays the top players ranked by their score. You can check your own position and stats by visiting the leaderboard page.</p>
+                        
+                        <h3>Private Games</h3>
+                        <p>There are two ways to play privately with friends:</p>
+                        <ol>
+                            <li><strong>Private Lobby:</strong> Create a private game lobby with a unique game code. Share this code with friends to allow them to join your game.</li>
+                            <li><strong>Friend Invites:</strong> For a faster method, go to the friends page, right-click on the friend you want to play with, and select "Invite to Game" for a quick 1-on-1 match.</li>
+                        </ol>
+                    </div>
+                    <div class="navigation-container">
+                        <div class="navigation">
+                            <button class="nav-btn" id="prevBtn8">← Back</button>
+                            <div class="page-indicator">Page 9 of 9</div>
+                            <button class="nav-btn" id="nextBtn8" disabled>Next →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            © 2025 Rummikub Game Rules
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cover = document.getElementById('cover');
+            const bookPages = document.getElementById('bookPages');
+            const pages = document.querySelectorAll('.page');
+            const tocItems = document.querySelectorAll('.toc-item');
+            
+            let currentPage = 0;
+            const totalPages = pages.length;
+            
+            // Fix navigation positioning for each page
+            function adjustNavigation() {
+                const pages = document.querySelectorAll('.page');
+                pages.forEach(page => {
+                    const navigation = page.querySelector('.navigation');
+                    if (navigation) {
+                        const bookWidth = document.querySelector('.book').offsetWidth;
+                        navigation.style.width = `${bookWidth}px`;
+                    }
+                });
+            }
+            
+            // Call on load and window resize
+            window.addEventListener('resize', adjustNavigation);
+            
+            // Open book cover
+            cover.addEventListener('click', function() {
+                this.classList.add('open');
+                setTimeout(() => {
+                    pages[0].classList.remove('hidden');
+                    adjustNavigation();
+                }, 300);
+            });
+            
+            // Initialize page navigation buttons
+            for (let i = 0; i < totalPages; i++) {
+                const prevBtn = document.getElementById(`prevBtn${i === 0 ? '' : i}`);
+                const nextBtn = document.getElementById(`nextBtn${i === 0 ? '' : i}`);
+                
+                if (prevBtn) {
+                    prevBtn.addEventListener('click', function() {
+                        navigatePage(i, 'prev');
+                    });
+                }
+                
+                if (nextBtn) {
+                    nextBtn.addEventListener('click', function() {
+                        navigatePage(i, 'next');
+                    });
+                }
+            }
+            
+            // Table of contents navigation
+            tocItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const targetPage = parseInt(this.getAttribute('data-page'));
+                    navigateToPage(targetPage);
+                });
+            });
+            
+            // Navigate page with animation
+            function navigatePage(fromPage, direction) {
+                let targetPage;
+                
+                if (direction === 'next') {
+                    targetPage = fromPage + 1;
+                    if (targetPage >= totalPages) return;
+                    
+                    pages[fromPage].classList.add('flipping-next');
+                    setTimeout(() => {
+                        pages[fromPage].classList.add('hidden');
+                        pages[fromPage].classList.remove('flipping-next');
+                        pages[targetPage].classList.remove('hidden');
+                        // Scroll to top of new page
+                        pages[targetPage].scrollTop = 0;
+                    }, 700);
+                } else {
+                    targetPage = fromPage - 1;
+                    if (targetPage < 0) return;
+                    
+                    pages[fromPage].classList.add('hidden');
+                    pages[targetPage].classList.remove('hidden');
+                    pages[targetPage].classList.add('flipping-prev');
+                    // Scroll to top of new page
+                    pages[targetPage].scrollTop = 0;
+                    setTimeout(() => {
+                        pages[targetPage].classList.remove('flipping-prev');
+                    }, 700);
+                }
+                
+                currentPage = targetPage;
+                updatePageIndicators();
+            }
+            
+            // Navigate directly to a specific page
+            function navigateToPage(targetPage) {
+                if (targetPage < 0 || targetPage >= totalPages) return;
+                
+                pages[currentPage].classList.add('hidden');
+                pages[targetPage].classList.remove('hidden');
+                // Scroll to top of new page
+                pages[targetPage].scrollTop = 0;
+                currentPage = targetPage;
+                updatePageIndicators();
+            }
+            
+            // Update page indicators and button states
+            function updatePageIndicators() {
+                const indicators = document.querySelectorAll('.page-indicator');
+                indicators.forEach(indicator => {
+                    indicator.textContent = `Page ${currentPage + 1} of ${totalPages}`;
+                });
+                
+                // Update button states
+                for (let i = 0; i < totalPages; i++) {
+                    const prevBtn = document.getElementById(`prevBtn${i === 0 ? '' : i}`);
+                    const nextBtn = document.getElementById(`nextBtn${i === 0 ? '' : i}`);
+                    
+                    if (prevBtn) {
+                        prevBtn.disabled = (currentPage === 0);
+                    }
+                    
+                    if (nextBtn) {
+                        nextBtn.disabled = (currentPage === totalPages - 1);
+                    }
+                }
+            }
+            
+            // Initialize navigation positioning
+            setTimeout(adjustNavigation, 100);
+        });
+    </script>
+</body>
+</html>

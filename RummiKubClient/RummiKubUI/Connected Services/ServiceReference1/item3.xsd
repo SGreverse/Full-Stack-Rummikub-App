@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ChatClasses" />
+  <xs:complexType name="PostRequestStatusCode">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Code" type="xs:int" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PostRequestStatusCode" nillable="true" type="tns:PostRequestStatusCode" />
+  <xs:complexType name="GetRequestStatusCodeOfstring">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ReturnedObject" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfstring" nillable="true" type="tns:GetRequestStatusCodeOfstring" />
+  <xs:complexType name="GetRequestStatusCodeOfVisualDisplayOfGameJf7wI7cb">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="VisualDisplayOfGame" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/RummiKubClasses" minOccurs="0" name="ReturnedObject" nillable="true" type="q1:VisualDisplayOfGame" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfVisualDisplayOfGameJf7wI7cb" nillable="true" type="tns:GetRequestStatusCodeOfVisualDisplayOfGameJf7wI7cb" />
+  <xs:complexType name="GetRequestStatusCodeOfint">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="int" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ReturnedObject" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfint" nillable="true" type="tns:GetRequestStatusCodeOfint" />
+  <xs:complexType name="GetRequestStatusCodeOfBoardWvE5evm_P">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="Board" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" minOccurs="0" name="ReturnedObject" nillable="true" type="q2:Board" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfBoardWvE5evm_P" nillable="true" type="tns:GetRequestStatusCodeOfBoardWvE5evm_P" />
+  <xs:complexType name="GetRequestStatusCodeOfArrayOfTileqR75x5J6">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfTile" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="ReturnedObject" nillable="true" type="q3:ArrayOfTile" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfArrayOfTileqR75x5J6" nillable="true" type="tns:GetRequestStatusCodeOfArrayOfTileqR75x5J6" />
+  <xs:complexType name="GetRequestStatusCodeOfTileqR75x5J6">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="Tile" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" minOccurs="0" name="ReturnedObject" nillable="true" type="q4:Tile" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfTileqR75x5J6" nillable="true" type="tns:GetRequestStatusCodeOfTileqR75x5J6" />
+  <xs:complexType name="GetRequestStatusCodeOfboolean">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="boolean" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ReturnedObject" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfboolean" nillable="true" type="tns:GetRequestStatusCodeOfboolean" />
+  <xs:complexType name="GetRequestStatusCodeOfPlayerQUU3zY5q">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="Player" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" minOccurs="0" name="ReturnedObject" nillable="true" type="q5:Player" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfPlayerQUU3zY5q" nillable="true" type="tns:GetRequestStatusCodeOfPlayerQUU3zY5q" />
+  <xs:complexType name="GetRequestStatusCodeOfPlayerListvCz7EyqQ">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="PlayerList" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" minOccurs="0" name="ReturnedObject" nillable="true" type="q6:PlayerList" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfPlayerListvCz7EyqQ" nillable="true" type="tns:GetRequestStatusCodeOfPlayerListvCz7EyqQ" />
+  <xs:complexType name="GetRequestStatusCodeOfCityListvCz7EyqQ">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="CityList" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" minOccurs="0" name="ReturnedObject" nillable="true" type="q7:CityList" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfCityListvCz7EyqQ" nillable="true" type="tns:GetRequestStatusCodeOfCityListvCz7EyqQ" />
+  <xs:complexType name="GetRequestStatusCodeOfbase64Binary">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="base64Binary" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ReturnedObject" nillable="true" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfbase64Binary" nillable="true" type="tns:GetRequestStatusCodeOfbase64Binary" />
+  <xs:complexType name="GetRequestStatusCodeOfGameWinnerOrderListvCz7EyqQ">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="GameWinnerOrderList" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/RummiKubClasses.ObjectsForDataBase" minOccurs="0" name="ReturnedObject" nillable="true" type="q8:GameWinnerOrderList" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfGameWinnerOrderListvCz7EyqQ" nillable="true" type="tns:GetRequestStatusCodeOfGameWinnerOrderListvCz7EyqQ" />
+  <xs:complexType name="GetRequestStatusCodeOfArrayOfMessageWvE5evm_P">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfMessage" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" minOccurs="0" name="ReturnedObject" nillable="true" type="q9:ArrayOfMessage" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfArrayOfMessageWvE5evm_P" nillable="true" type="tns:GetRequestStatusCodeOfArrayOfMessageWvE5evm_P" />
+  <xs:complexType name="GetRequestStatusCodeOfArrayOfMessageAction2jouLtyO">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="GetRequestStatusCodeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.StatusCodes" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfMessageAction" Namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.ChatClasses" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PostRequestStatusCode">
+        <xs:sequence>
+          <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/RummiKubClasses.ChatClasses" minOccurs="0" name="ReturnedObject" nillable="true" type="q10:ArrayOfMessageAction" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetRequestStatusCodeOfArrayOfMessageAction2jouLtyO" nillable="true" type="tns:GetRequestStatusCodeOfArrayOfMessageAction2jouLtyO" />
+</xs:schema>

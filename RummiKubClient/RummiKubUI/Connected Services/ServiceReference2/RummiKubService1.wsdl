@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="RummiKubService1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.Tiles" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.GamePieces" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.Exceptions" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/System" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRummiKubService_Hello_InputMessage">
+    <wsdl:part name="parameters" element="tns:Hello" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Hello_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Hello2_InputMessage">
+    <wsdl:part name="parameters" element="tns:Hello2" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_Hello2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Hello2Response" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ValiDateRisingSeries_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValiDateRisingSeries" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ValiDateRisingSeries_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValiDateRisingSeriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ValiDateColorSeries_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValiDateColorSeries" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_ValiDateColorSeries_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValiDateColorSeriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassTile_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassTile" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassTile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassTileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassSeries_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassSeries" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassSeries_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassSeriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassGamePieces_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassGamePieces" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassGamePieces_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassGamePiecesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassExceptions_InputMessage">
+    <wsdl:part name="parameters" element="tns:PassExceptions" />
+  </wsdl:message>
+  <wsdl:message name="IRummiKubService_PassExceptions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PassExceptionsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRummiKubService">
+    <wsdl:operation name="Hello">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/Hello" message="tns:IRummiKubService_Hello_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/HelloResponse" message="tns:IRummiKubService_Hello_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Hello2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/Hello2" message="tns:IRummiKubService_Hello2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/Hello2Response" message="tns:IRummiKubService_Hello2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValiDateRisingSeries">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ValiDateRisingSeries" message="tns:IRummiKubService_ValiDateRisingSeries_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ValiDateRisingSeriesResponse" message="tns:IRummiKubService_ValiDateRisingSeries_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValiDateColorSeries">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/ValiDateColorSeries" message="tns:IRummiKubService_ValiDateColorSeries_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/ValiDateColorSeriesResponse" message="tns:IRummiKubService_ValiDateColorSeries_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassTile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassTile" message="tns:IRummiKubService_PassTile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassTileResponse" message="tns:IRummiKubService_PassTile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassSeries">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassSeries" message="tns:IRummiKubService_PassSeries_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassSeriesResponse" message="tns:IRummiKubService_PassSeries_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassGamePieces">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassGamePieces" message="tns:IRummiKubService_PassGamePieces_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassGamePiecesResponse" message="tns:IRummiKubService_PassGamePieces_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PassExceptions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRummiKubService/PassExceptions" message="tns:IRummiKubService_PassExceptions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRummiKubService/PassExceptionsResponse" message="tns:IRummiKubService_PassExceptions_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRummiKubService" type="tns:IRummiKubService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Hello">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/Hello" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Hello2">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/Hello2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValiDateRisingSeries">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ValiDateRisingSeries" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValiDateColorSeries">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/ValiDateColorSeries" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassTile">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassTile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassSeries">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassSeries" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassGamePieces">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassGamePieces" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassExceptions">
+      <soap:operation soapAction="http://tempuri.org/IRummiKubService/PassExceptions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RummiKubService1">
+    <wsdl:port name="BasicHttpBinding_IRummiKubService" binding="tns:BasicHttpBinding_IRummiKubService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

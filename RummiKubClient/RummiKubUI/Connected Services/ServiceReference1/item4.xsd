@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RummiKubClasses" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RummiKubClasses" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/RummiKubService/RummiKubService1/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" />
+  <xs:complexType name="VisualDisplayOfGame">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/RummiKubClasses.PlayingEntities" base="q1:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="GameState" type="tns:GameStates" />
+          <xs:element minOccurs="0" name="PlayerCount" type="xs:int" />
+          <xs:element minOccurs="0" name="visualDisplayOfPlayers" nillable="true" type="tns:ArrayOfVisualDisplayOfPlayer" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="VisualDisplayOfGame" nillable="true" type="tns:VisualDisplayOfGame" />
+  <xs:simpleType name="GameStates">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Running" />
+      <xs:enumeration value="Ended" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="GameStates" nillable="true" type="tns:GameStates" />
+  <xs:complexType name="ArrayOfVisualDisplayOfPlayer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VisualDisplayOfPlayer" nillable="true" type="tns:VisualDisplayOfPlayer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVisualDisplayOfPlayer" nillable="true" type="tns:ArrayOfVisualDisplayOfPlayer" />
+  <xs:complexType name="VisualDisplayOfPlayer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IconName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Level" type="xs:int" />
+      <xs:element minOccurs="0" name="PlayerState" type="tns:PlayerState" />
+      <xs:element minOccurs="0" name="TileAmount" type="xs:int" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VisualDisplayOfPlayer" nillable="true" type="tns:VisualDisplayOfPlayer" />
+  <xs:simpleType name="PlayerState">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Waiting" />
+      <xs:enumeration value="Playing" />
+      <xs:enumeration value="Finished" />
+      <xs:enumeration value="Surrender" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PlayerState" nillable="true" type="tns:PlayerState" />
+</xs:schema>

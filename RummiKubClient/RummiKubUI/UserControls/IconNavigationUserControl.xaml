@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="RummiKubUI.UserControls.IconNavigationUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RummiKubUI.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources >
+        <local:ImageConverter x:Key="imageConverter" />
+    </UserControl.Resources>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition />
+
+            </Grid.RowDefinitions>
+            <Grid>
+                <Ellipse Width="100" Height="100" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="{Binding ImgName,Converter={StaticResource imageConverter}}"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <TextBlock Width="30" Height="30"
+                                       VerticalAlignment="Bottom"
+                                       Margin="37,0,0,15"
+                                       Text="📷"/>
+            <Button Click="ShowCameraVideoCaptureClick"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Bottom"
+                                    ToolTip="Take a Picture"
+                                    Margin="40,0,0,10"
+                                    Width="30" Height="30"
+                                    Padding="0"
+                                    OverridesDefaultStyle="True"
+                                    Cursor="Hand">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <Ellipse Fill="Transparent" Width="30" Height="30" Stroke="Black"/>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+            <Button  Grid.Row="1"  Width="50" Height="50" Background="Transparent"  HorizontalAlignment="Left" Margin="20,0,0,0" ToolTip="Load Image" Click="UploadImage_Click">
+                <Button.Content>
+                    <Image />
+                </Button.Content>
+            </Button>
+            <StackPanel Orientation="Horizontal" Grid.Row="1"  HorizontalAlignment="Center" >
+                <Button Content="Prev"  Grid.Row="6" Grid.Column="6" Width="50" Height="35" Background="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Right" ToolTip="Prev Image" Click="PrevImage_Click"/>
+
+                <Image Margin="20,20,20,0" />
+                <Button Content="Next" Grid.Row="6" Grid.Column="6" Width="50" Height="35" Background="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Right" ToolTip="Next Image" Click="NextImage_Click"/>
+
+
+            </StackPanel>
+        </Grid>
+</UserControl>

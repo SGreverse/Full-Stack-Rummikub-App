@@ -1,0 +1,1489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummiserver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|solutionrelative:rummiserver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\leaderboarddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\leaderboarddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\frienddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\frienddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\contactdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\contactdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\citydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\citydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\chatdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\chatdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\changeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\changeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\allplayedgamesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\allplayedgamesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|c:\\rummikubapplication\\rummikubapplication\\rummikubserver\\viewmodel\\basedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\basedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RummiServer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\rummikublogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\rummikublogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RummiKubBusinessLogic||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ViewModel||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RummiKubModel||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RummiKubService||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\playingentities\\playeringame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|solutionrelative:rummikubclasses\\playingentities\\playeringame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\playingentities\\playerboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|solutionrelative:rummikubclasses\\playingentities\\playerboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\playingentities\\playerboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\playingentities\\playerboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\gameclasses\\playerorderlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\gameclasses\\playerorderlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\playingentities\\playeringame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\playingentities\\playeringame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\visualdisplayofgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|solutionrelative:rummikubclasses\\visualdisplayofgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\visualdisplayofgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\visualdisplayofgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\visualdisplayofplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|solutionrelative:rummikubclasses\\visualdisplayofplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\visualdisplayofplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\visualdisplayofplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\gameclasses\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\gameclasses\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\chatclasses\\profanitydetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\chatclasses\\profanitydetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummiserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|solutionrelative:rummiserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5058EDAB-7929-4858-BAB0-F404AF34ED29}|RummiKubService\\RummiKubService.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubservice\\rummikubservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5058EDAB-7929-4858-BAB0-F404AF34ED29}|RummiKubService\\RummiKubService.csproj|solutionrelative:rummikubservice\\rummikubservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\chatclasses\\messageaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\chatclasses\\messageaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\userlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\userlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\userproblemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\userproblemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\userlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\userlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\userproblemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\userproblemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\userproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubModel.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\userproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5058EDAB-7929-4858-BAB0-F404AF34ED29}|RummiKubService\\RummiKubService.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubservice\\irummikubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5058EDAB-7929-4858-BAB0-F404AF34ED29}|RummiKubService\\RummiKubService.csproj|solutionrelative:rummikubservice\\irummikubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\userproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\userproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\statuscodes\\statusmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\statuscodes\\statusmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\tiles\\joker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\tiles\\joker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\tiles\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\tiles\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\chatclasses\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\chatclasses\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\rummikubtileseries\\risingseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\rummikubtileseries\\risingseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\rummikubtileseries\\tileseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\rummikubtileseries\\tileseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\rummikubtileseries\\colorseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\rummikubtileseries\\colorseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\gameclasses\\actionclasses\\addingtileaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\gameclasses\\actionclasses\\addingtileaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\gameclasses\\actionclasses\\gameaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\gameclasses\\actionclasses\\gameaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\gameclasses\\actionclasses\\insertingseriesaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\gameclasses\\actionclasses\\insertingseriesaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\gameclasses\\playernode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\gameclasses\\playernode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RummiKubService\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\security\\bcryptsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\security\\bcryptsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\security\\rsasecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\security\\rsasecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummiserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|solutionrelative:rummiserver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\statuscodes\\getrequeststatuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\statuscodes\\getrequeststatuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\statuscodes\\postrequeststatuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\statuscodes\\postrequeststatuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummiserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|solutionrelative:rummiserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\playingentities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\playingentities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\playingentities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\playingentities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\gamewinnerorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\gamewinnerorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\gamelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\gamelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\gameinvite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\gameinvite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\gameinvitelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\gameinvitelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\friendconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\friendconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\friendconnectionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\friendconnectionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\citylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\citylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummiserver\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AB3F003-B1FF-44F8-8AB2-2265FBE529DC}|RummiServer\\RummiServer.csproj|solutionrelative:rummiserver\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\viewmodel\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{8ABCBB0A-C80A-4DCD-AAE5-B7C6153635DD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\gameclasses\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\gameclasses\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\playerconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\playerconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubclasses\\objectsfordatabase\\gamewinnerorderlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0CE9DDF-1B22-4578-B6F7-58AC1705FA6B}|RummiKubClasses\\RummiKubClasses.csproj|solutionrelative:rummikubclasses\\objectsfordatabase\\gamewinnerorderlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\rummikubbusinesslogic\\gameclasses\\tilebank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F29FBE0-EACD-4FC4-B123-E49A8EF65FAC}|RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj|solutionrelative:rummikubbusinesslogic\\gameclasses\\tilebank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\Security\\RSASecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\TestProj\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerBoard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerOrderList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\TileBank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerNode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\ManIcon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\WomanIcon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AllPlayedGamesDB.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\AllPlayedGamesDB.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AllPlayedGamesDB.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\AllPlayedGamesDB.cs",
+              "RelativeToolTip": "ViewModel\\AllPlayedGamesDB.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAD4v3EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:28:20.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChangeEntity.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ChangeEntity.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ChangeEntity.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ChangeEntity.cs",
+              "RelativeToolTip": "ViewModel\\ChangeEntity.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T10:35:54.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatDB.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ChatDB.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ChatDB.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ChatDB.cs",
+              "RelativeToolTip": "ViewModel\\ChatDB.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T07:00:01.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CityDB.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\CityDB.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CityDB.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\CityDB.cs",
+              "RelativeToolTip": "ViewModel\\CityDB.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:11:35.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactDB.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ContactDB.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ContactDB.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ContactDB.cs",
+              "RelativeToolTip": "ViewModel\\ContactDB.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAADwvxQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:18:19.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FriendDB.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\FriendDB.cs",
+              "RelativeDocumentMoniker": "ViewModel\\FriendDB.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\FriendDB.cs",
+              "RelativeToolTip": "ViewModel\\FriendDB.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwCMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:40:28.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeaderBoardDB.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\LeaderBoardDB.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LeaderBoardDB.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\LeaderBoardDB.cs",
+              "RelativeToolTip": "ViewModel\\LeaderBoardDB.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAUwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:16:27.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDB.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\UserDB.cs",
+              "RelativeDocumentMoniker": "ViewModel\\UserDB.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\UserDB.cs",
+              "RelativeToolTip": "ViewModel\\UserDB.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:02:34.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RummiServer\\MainWindow.xaml",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\MainWindow.xaml",
+              "RelativeToolTip": "RummiServer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T11:08:36.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseDB.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\BaseDB.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BaseDB.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\BaseDB.cs",
+              "RelativeToolTip": "ViewModel\\BaseDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T10:34:23.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PlayerOrderList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\PlayerOrderList.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\GameClasses\\PlayerOrderList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\PlayerOrderList.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\GameClasses\\PlayerOrderList.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwDoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:33:11.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerInGame.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\PlayerInGame.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\PlayingEntities\\PlayerInGame.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\PlayerInGame.cs",
+              "RelativeToolTip": "RummiKubClasses\\PlayingEntities\\PlayerInGame.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAnwD4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T10:36:25.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\packages.config",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\packages.config",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\packages.config",
+              "RelativeToolTip": "RummiKubBusinessLogic\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-25T17:58:14.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RummiKubLogic.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubLogic.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\RummiKubLogic.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubLogic.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\RummiKubLogic.cs",
+              "ViewState": "AgIAAAoCAAAAAAAAAAAqwCMDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:14:38.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RummiKubBusinessLogic",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj",
+              "RelativeToolTip": "RummiKubBusinessLogic\\RummiKubBusinessLogic.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-13T16:00:42.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RummiServer",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\RummiServer.csproj",
+              "RelativeDocumentMoniker": "RummiServer\\RummiServer.csproj",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\RummiServer.csproj",
+              "RelativeToolTip": "RummiServer\\RummiServer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-29T13:22:27.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewModel",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ViewModel.csproj",
+              "RelativeDocumentMoniker": "ViewModel\\ViewModel.csproj",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ViewModel.csproj",
+              "RelativeToolTip": "ViewModel\\ViewModel.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-29T13:15:59.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RummiKubModel",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\RummiKubModel.csproj",
+              "RelativeDocumentMoniker": "RummiKubClasses\\RummiKubModel.csproj",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\RummiKubModel.csproj",
+              "RelativeToolTip": "RummiKubClasses\\RummiKubModel.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-29T13:22:07.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "InsertingSeriesAction.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\ActionClasses\\InsertingSeriesAction.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\GameClasses\\ActionClasses\\InsertingSeriesAction.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\ActionClasses\\InsertingSeriesAction.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\GameClasses\\ActionClasses\\InsertingSeriesAction.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:28:41.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PlayerNode.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\PlayerNode.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\GameClasses\\PlayerNode.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\PlayerNode.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\GameClasses\\PlayerNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:18:52.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\App.config",
+              "RelativeDocumentMoniker": "RummiKubService\\App.config",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\App.config",
+              "RelativeToolTip": "RummiKubService\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-27T11:08:44.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BcryptSecurity.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\Security\\BcryptSecurity.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\Security\\BcryptSecurity.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\Security\\BcryptSecurity.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\Security\\BcryptSecurity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:23:39.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RSASecurity.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\Security\\RSASecurity.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\Security\\RSASecurity.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\Security\\RSASecurity.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\Security\\RSASecurity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:23:36.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RummiKubService",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\RummiKubService.csproj",
+              "RelativeDocumentMoniker": "RummiKubService\\RummiKubService.csproj",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\RummiKubService.csproj",
+              "RelativeToolTip": "RummiKubService\\RummiKubService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-06T05:56:03.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlayerBoard.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\PlayerBoard.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\PlayingEntities\\PlayerBoard.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\PlayerBoard.cs",
+              "RelativeToolTip": "RummiKubClasses\\PlayingEntities\\PlayerBoard.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T10:57:59.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PlayerBoard.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\PlayerBoard.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\PlayingEntities\\PlayerBoard.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\PlayerBoard.cs",
+              "RelativeToolTip": "RummiKubClasses\\PlayingEntities\\PlayerBoard.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:31:43.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VisualDisplayOfGame.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\VisualDisplayOfGame.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\VisualDisplayOfGame.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\VisualDisplayOfGame.cs",
+              "RelativeToolTip": "RummiKubClasses\\VisualDisplayOfGame.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T10:32:10.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VisualDisplayOfGame.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\VisualDisplayOfGame.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\VisualDisplayOfGame.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\VisualDisplayOfGame.cs",
+              "RelativeToolTip": "RummiKubClasses\\VisualDisplayOfGame.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:23:12.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VisualDisplayOfPlayer.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\VisualDisplayOfPlayer.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\VisualDisplayOfPlayer.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\VisualDisplayOfPlayer.cs",
+              "RelativeToolTip": "RummiKubClasses\\VisualDisplayOfPlayer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T10:32:09.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlayerInGame.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\PlayerInGame.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\PlayingEntities\\PlayerInGame.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\PlayerInGame.cs",
+              "RelativeToolTip": "RummiKubClasses\\PlayingEntities\\PlayerInGame.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAnwD4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:30:11.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VisualDisplayOfPlayer.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\VisualDisplayOfPlayer.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\VisualDisplayOfPlayer.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\VisualDisplayOfPlayer.cs",
+              "RelativeToolTip": "RummiKubClasses\\VisualDisplayOfPlayer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T09:56:57.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\Game.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\GameClasses\\Game.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\Game.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\GameClasses\\Game.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAlwGIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:29:33.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProfanityDetector.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\ChatClasses\\ProfanityDetector.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\ChatClasses\\ProfanityDetector.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\ChatClasses\\ProfanityDetector.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\ChatClasses\\ProfanityDetector.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:42:55.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\App.config",
+              "RelativeDocumentMoniker": "RummiServer\\App.config",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\App.config",
+              "RelativeToolTip": "RummiServer\\App.config",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-27T11:08:40.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RummiKubService1.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\RummiKubService1.cs",
+              "RelativeDocumentMoniker": "RummiKubService\\RummiKubService1.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\RummiKubService1.cs",
+              "RelativeToolTip": "RummiKubService\\RummiKubService1.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAkwLcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T10:57:08.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MessageAction.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\ChatClasses\\MessageAction.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\ChatClasses\\MessageAction.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\ChatClasses\\MessageAction.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\ChatClasses\\MessageAction.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:26:58.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\UserList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\UserList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T12:54:45.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserProblemList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserProblemList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\UserProblemList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserProblemList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\UserProblemList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:19:37.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserProblem.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserProblem.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\UserProblem.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserProblem.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\UserProblem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:19:01.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRummiKubService.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\IRummiKubService.cs",
+              "RelativeDocumentMoniker": "RummiKubService\\IRummiKubService.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubService\\IRummiKubService.cs",
+              "RelativeToolTip": "RummiKubService\\IRummiKubService.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAADgvwgBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T10:56:28.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserProblemList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserProblemList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\UserProblemList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserProblemList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\UserProblemList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T12:53:30.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\UserList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\UserList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:05:51.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserProblem.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserProblem.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\UserProblem.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\UserProblem.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\UserProblem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T12:38:26.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\ChatClasses\\Chat.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\ChatClasses\\Chat.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\ChatClasses\\Chat.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\ChatClasses\\Chat.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:27:12.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\Tiles\\Tile.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\Tiles\\Tile.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\Tiles\\Tile.cs",
+              "RelativeToolTip": "RummiKubClasses\\Tiles\\Tile.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAzwCcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:15:56.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Joker.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\Tiles\\Joker.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\Tiles\\Joker.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\Tiles\\Joker.cs",
+              "RelativeToolTip": "RummiKubClasses\\Tiles\\Joker.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:18:08.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ColorSeries.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubTileSeries\\ColorSeries.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\RummiKubTileSeries\\ColorSeries.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubTileSeries\\ColorSeries.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\RummiKubTileSeries\\ColorSeries.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAawD0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:34:10.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "TileSeries.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubTileSeries\\TileSeries.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\RummiKubTileSeries\\TileSeries.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubTileSeries\\TileSeries.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\RummiKubTileSeries\\TileSeries.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:34:11.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RisingSeries.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubTileSeries\\RisingSeries.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\RummiKubTileSeries\\RisingSeries.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\RummiKubTileSeries\\RisingSeries.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\RummiKubTileSeries\\RisingSeries.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAEwE4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:34:12.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StatusMessages.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\StatusCodes\\StatusMessages.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\StatusCodes\\StatusMessages.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\StatusCodes\\StatusMessages.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\StatusCodes\\StatusMessages.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:17:36.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\ClassDiagram1.cd",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\ClassDiagram1.cd",
+              "RelativeToolTip": "RummiKubBusinessLogic\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-06-13T21:43:13.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddingTileAction.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\ActionClasses\\AddingTileAction.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\GameClasses\\ActionClasses\\AddingTileAction.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\ActionClasses\\AddingTileAction.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\GameClasses\\ActionClasses\\AddingTileAction.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:55:27.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GameAction.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\ActionClasses\\GameAction.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\GameClasses\\ActionClasses\\GameAction.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\ActionClasses\\GameAction.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\GameClasses\\ActionClasses\\GameAction.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAawBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:28:37.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RummiServer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RummiServer\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:08:36.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PostRequestStatusCode.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\StatusCodes\\PostRequestStatusCode.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\StatusCodes\\PostRequestStatusCode.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\StatusCodes\\PostRequestStatusCode.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\StatusCodes\\PostRequestStatusCode.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:17:35.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "GetRequestStatusCode.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\StatusCodes\\GetRequestStatusCode.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\StatusCodes\\GetRequestStatusCode.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\StatusCodes\\GetRequestStatusCode.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\StatusCodes\\GetRequestStatusCode.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:17:34.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\packages.config",
+              "RelativeDocumentMoniker": "RummiServer\\packages.config",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\packages.config",
+              "RelativeToolTip": "RummiServer\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-06T16:12:27.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\User.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\PlayingEntities\\User.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\User.cs",
+              "RelativeToolTip": "RummiKubClasses\\PlayingEntities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:30:16.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\Player.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\PlayingEntities\\Player.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\PlayingEntities\\Player.cs",
+              "RelativeToolTip": "RummiKubClasses\\PlayingEntities\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:55:32.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\BaseEntity.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\BaseEntity.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:30:07.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\Message.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\Message.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\Message.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\Message.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:32:58.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GameList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\GameList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\GameList.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewBIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:33:13.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "GameWinnerOrder.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameWinnerOrder.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\GameWinnerOrder.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameWinnerOrder.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\GameWinnerOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T07:02:46.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "GameInvite.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameInvite.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\GameInvite.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameInvite.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\GameInvite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:49:54.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "GameInviteList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameInviteList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\GameInviteList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameInviteList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\GameInviteList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:50:11.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "FriendConnection.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\FriendConnection.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\FriendConnection.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\FriendConnection.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\FriendConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:56:55.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "FriendConnectionList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\FriendConnectionList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\FriendConnectionList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\FriendConnectionList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\FriendConnectionList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:57:32.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CityList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\CityList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\CityList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\CityList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\CityList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:14:48.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\City.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\City.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\City.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:13:10.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\App.xaml",
+              "RelativeDocumentMoniker": "RummiServer\\App.xaml",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiServer\\App.xaml",
+              "RelativeToolTip": "RummiServer\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-27T07:24:16.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "RSASecurity.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\Security\\RSASecurity.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\Security\\RSASecurity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:57:21.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "TileBank.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\TileBank.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\GameClasses\\TileBank.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\TileBank.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\GameClasses\\TileBank.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:33:15.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\packages.config",
+              "RelativeDocumentMoniker": "ViewModel\\packages.config",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\packages.config",
+              "RelativeToolTip": "ViewModel\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-13T11:59:23.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ClassDiagram1.cd",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ClassDiagram1.cd",
+              "RelativeToolTip": "RummiKubClasses\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-06-12T17:12:18.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\packages.config",
+              "RelativeDocumentMoniker": "RummiKubClasses\\packages.config",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\packages.config",
+              "RelativeToolTip": "RummiKubClasses\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-13T10:28:22.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "ViewModel\\ClassDiagram1.cd",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\ViewModel\\ClassDiagram1.cd",
+              "RelativeToolTip": "ViewModel\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-06-12T20:11:56.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "GameWinnerOrderList.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameWinnerOrderList.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\GameWinnerOrderList.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\GameWinnerOrderList.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\GameWinnerOrderList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T07:39:16.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\Board.cs",
+              "RelativeDocumentMoniker": "RummiKubBusinessLogic\\GameClasses\\Board.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubBusinessLogic\\GameClasses\\Board.cs",
+              "RelativeToolTip": "RummiKubBusinessLogic\\GameClasses\\Board.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:51:55.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "PlayerConnection.cs",
+              "DocumentMoniker": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\PlayerConnection.cs",
+              "RelativeDocumentMoniker": "RummiKubClasses\\ObjectsForDataBase\\PlayerConnection.cs",
+              "ToolTip": "C:\\RummiKubApplication\\RummiKubApplication\\RummiKubServer\\RummiKubClasses\\ObjectsForDataBase\\PlayerConnection.cs",
+              "RelativeToolTip": "RummiKubClasses\\ObjectsForDataBase\\PlayerConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:13:23.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "StatusMessages.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusMessages.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusMessages.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusMessages.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusMessages.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:25:15.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "StatusCode.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusCode.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusCode.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusCode.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubServer\\RummiKubServer\\RummiKubClasses\\StatusCode.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:16:49.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "PlayerBoard.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerBoard.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerBoard.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:30:34.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Game.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Game.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:22:36.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Message.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Message.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:44:32.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Chat.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Chat.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:45:18.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\TestProj\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\TestProj\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\TestProj\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\TestProj\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T08:25:17.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ManIcon.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\ManIcon.png",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\ManIcon.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\ManIcon.png",
+              "RelativeToolTip": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\ManIcon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-06T18:39:39.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "WomanIcon.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\WomanIcon.png",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\WomanIcon.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\WomanIcon.png",
+              "RelativeToolTip": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\ViewModel\\Icons\\WomanIcon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-20T05:54:44.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "PlayerOrderList.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerOrderList.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerOrderList.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:22:48.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "TileBank.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\TileBank.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\TileBank.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:30:39.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAF4JAAAAAAAAAADgv2wJAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-05T15:02:58.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T10:55:30.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "PlayerNode.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerNode.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\PlayerNode.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:24:37.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Board.cs",
+              "ToolTip": "D:\\The Greatest RummiKub app ever made!!!!!!!!!!\\RummiKubServer\\RummiKubClasses\\GamePieces\\Board.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:30:26.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\App.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\App.config",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\App.config",
+              "RelativeToolTip": "..\\..\\..\\Users\\User\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\RummiKubApplication\\RummiKubServer\\RummiKubServer\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-27T10:58:16.411Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

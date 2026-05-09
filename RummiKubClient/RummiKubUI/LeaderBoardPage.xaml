@@ -1,0 +1,104 @@
+﻿<Page x:Class="RummiKubUI.LeaderBoardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RummiKubUI.Converters"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LeaderBoardPage">
+    <Page.Resources>
+        <local:PositionToColorConverter x:Key="positionToColorConverter"/>
+        <local:PositionToVisibilityConverter x:Key="positionToVisibilityConverter"/>
+        <local:BoolToHighlightConverter x:Key="boolToHighlightConverter"/>
+        <local:BoolToBorderConverter x:Key="boolToBorderConverter"/>
+        <local:BoolToBorderThicknessConverter x:Key="boolToBorderThicknessConverter"/>
+        <local:BoolToFontWeightConverter x:Key="boolToFontWeightConverter"/>
+    </Page.Resources>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Border Grid.Row="0" Background="#1E3D59" Padding="20,15">
+            <TextBlock Text="LEADERBOARD" FontSize="32" FontWeight="Bold" 
+                       Foreground="White" HorizontalAlignment="Center"/>
+        </Border>
+        <StackPanel Grid.Row="0" x:Name="HeadBackButtonPanel" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <Border Grid.Row="1" Background="#F5F0E1" Padding="30">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Margin="0,0,0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.15*"/>
+                        <ColumnDefinition Width="0.55*"/>
+                        <ColumnDefinition Width="0.3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" Text="RANK" FontSize="18" FontWeight="Bold" 
+                               Foreground="#1E3D59" HorizontalAlignment="Center"/>
+                    <TextBlock Grid.Column="1" Text="PLAYER" FontSize="18" FontWeight="Bold" 
+                               Foreground="#1E3D59" HorizontalAlignment="Left" Margin="50,0,0,0"/>
+                    <TextBlock Grid.Column="2" Text="SCORE" FontSize="18" FontWeight="Bold" 
+                               Foreground="#1E3D59" HorizontalAlignment="Right"/>
+                </Grid>
+
+                <!-- Leaderboard Items -->
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <ItemsControl x:Name="LeaderboardList">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Margin="0,5" Padding="15,10" CornerRadius="8"
+                                        Background="{Binding IsCurrentUser, Converter={StaticResource boolToHighlightConverter}, ConverterParameter='#FFF9C5'}"
+                                        BorderBrush="{Binding IsCurrentUser, Converter={StaticResource boolToBorderConverter}, ConverterParameter='#FF8C42'}"
+                                        BorderThickness="{Binding IsCurrentUser, Converter={StaticResource boolToBorderThicknessConverter}, ConverterParameter=2}">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.15*"/>
+                                            <ColumnDefinition Width="0.55*"/>
+                                            <ColumnDefinition Width="0.3*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Grid Grid.Column="0" HorizontalAlignment="Center">
+                                            <TextBlock Text="{Binding Position}" FontSize="22" FontWeight="Bold"
+                                                       Foreground="{Binding Position, Converter={StaticResource positionToColorConverter}}"
+                                                       HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                                            <Path x:Name="GoldCrown" Visibility="{Binding Position, Converter={StaticResource positionToVisibilityConverter}, ConverterParameter=1}" 
+                                                  Fill="#FFD700" Stroke="#CC9900" StrokeThickness="1" 
+                                                  Data="M 0,15 L 5,0 L 10,5 L 15,0 L 20,5 L 25,0 L 30,15 L 0,15 Z" 
+                                                  Height="18" Width="30" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,-15,0,0"/>
+
+                                            <Ellipse x:Name="SilverMedal" Visibility="{Binding Position, Converter={StaticResource positionToVisibilityConverter}, ConverterParameter=2}" 
+                                                     Fill="#C0C0C0" Stroke="#A0A0A0" StrokeThickness="1" 
+                                                     Height="18" Width="18" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,-12,0,0"/>
+
+                                            <Ellipse x:Name="BronzeMedal" Visibility="{Binding Position, Converter={StaticResource positionToVisibilityConverter}, ConverterParameter=3}" 
+                                                     Fill="#CD7F32" Stroke="#A05A2C" StrokeThickness="1" 
+                                                     Height="18" Width="18" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,-12,0,0"/>
+                                        </Grid>
+
+                                        <TextBlock Grid.Column="1" Text="{Binding Username}" FontSize="18" 
+                                                   FontWeight="{Binding IsCurrentUser, Converter={StaticResource boolToFontWeightConverter}}"
+                                                   Foreground="#1E3D59" VerticalAlignment="Center" Margin="10,0,0,0"/>
+
+                                        <TextBlock Grid.Column="2" Text="{Binding Score}" FontSize="18" FontWeight="Bold" 
+                                                   Foreground="#FF8C42" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

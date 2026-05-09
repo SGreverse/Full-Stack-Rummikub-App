@@ -1,0 +1,229 @@
+﻿<Page x:Class="RummiKubUI.ContactUsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RummiKubUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ContactUsPage">
+    <Page.Resources>
+        <!-- Tile Colors for Animation -->
+        <SolidColorBrush x:Key="RedTile" Color="#DC143C"/>
+        <SolidColorBrush x:Key="BlueTile" Color="#1E90FF"/>
+        <SolidColorBrush x:Key="OrangeTile" Color="#FF8C00"/>
+        <SolidColorBrush x:Key="BlackTile" Color="#2F2F2F"/>
+
+        <!-- Gradient Background -->
+        <LinearGradientBrush x:Key="BackgroundGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#F5F5DC" Offset="0"/>
+            <GradientStop Color="#DEB887" Offset="0.5"/>
+            <GradientStop Color="#D2B48C" Offset="1"/>
+        </LinearGradientBrush>
+
+        <!-- Card Style -->
+        <Style x:Key="CardStyle" TargetType="Border">
+            <Setter Property="Background" Value="#FEFEFE"/>
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#AA000000" BlurRadius="20" ShadowDepth="8" Opacity="0.3"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Button Style -->
+        <Style x:Key="SendButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#DC143C"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="20,10"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="8"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#B91C3C"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#991B2C"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Input Style -->
+        <Style x:Key="InputStyle" TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="12,8"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="#DDD"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="#1E90FF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Floating Tile Animation -->
+        <Storyboard x:Key="FloatingTilesAnimation" RepeatBehavior="Forever">
+            <DoubleAnimation Storyboard.TargetName="Tile1" 
+                           Storyboard.TargetProperty="(Canvas.Top)"
+                           From="50" To="150" Duration="0:0:4"
+                           AutoReverse="True"/>
+            <DoubleAnimation Storyboard.TargetName="Tile2" 
+                           Storyboard.TargetProperty="(Canvas.Top)"
+                           From="200" To="100" Duration="0:0:6"
+                           AutoReverse="True"/>
+            <DoubleAnimation Storyboard.TargetName="Tile3" 
+                           Storyboard.TargetProperty="(Canvas.Top)"
+                           From="300" To="400" Duration="0:0:5"
+                           AutoReverse="True"/>
+            <DoubleAnimation Storyboard.TargetName="Tile4" 
+                           Storyboard.TargetProperty="(Canvas.Top)"
+                           From="100" To="250" Duration="0:0:7"
+                           AutoReverse="True"/>
+        </Storyboard>
+    </Page.Resources>
+
+    <Page.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard Storyboard="{StaticResource FloatingTilesAnimation}"/>
+        </EventTrigger>
+    </Page.Triggers>
+
+    <Grid Background="{StaticResource BackgroundGradient}">
+        <!-- Background Animation Layer -->
+        <Canvas Opacity="0.1" IsHitTestVisible="False">
+            <!-- Floating Rummikub Tiles -->
+            <Border x:Name="Tile1" Width="40" Height="30" Background="{StaticResource RedTile}"
+                    CornerRadius="4" Canvas.Left="100" Canvas.Top="50">
+                <TextBlock Text="7" Foreground="White" FontWeight="Bold" 
+                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+
+            <Border x:Name="Tile2" Width="40" Height="30" Background="{StaticResource BlueTile}"
+                    CornerRadius="4" Canvas.Left="750" Canvas.Top="200">
+                <TextBlock Text="13" Foreground="White" FontWeight="Bold" 
+                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+
+            <Border x:Name="Tile3" Width="40" Height="30" Background="{StaticResource OrangeTile}"
+                    CornerRadius="4" Canvas.Left="200" Canvas.Top="300">
+                <TextBlock Text="1" Foreground="White" FontWeight="Bold" 
+                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+
+            <Border x:Name="Tile4" Width="40" Height="30" Background="{StaticResource BlackTile}"
+                    CornerRadius="4" Canvas.Left="650" Canvas.Top="100">
+                <TextBlock Text="♦" Foreground="White" FontWeight="Bold" FontSize="16"
+                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+
+            <Ellipse Width="60" Height="60" Fill="#20DC143C" Canvas.Left="50" Canvas.Top="400"/>
+            <Ellipse Width="80" Height="80" Fill="#201E90FF" Canvas.Left="800" Canvas.Top="500"/>
+            <Ellipse Width="40" Height="40" Fill="#20FF8C00" Canvas.Left="300" Canvas.Top="150"/>
+        </Canvas>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <StackPanel Grid.Row="0" Margin="0,30,0,20" HorizontalAlignment="Center">
+                <TextBlock Text="Contact Us" FontSize="36" FontWeight="Bold" 
+                          Foreground="#2F2F2F" HorizontalAlignment="Center"/>
+                <TextBlock Text="We'd love to hear from you! Send us your questions or problems and we'd be happy to resolve them."
+                          FontSize="16" Foreground="#666" HorizontalAlignment="Center" 
+                          Margin="0,10,0,0" TextWrapping="Wrap" MaxWidth="600"/>
+            </StackPanel>
+
+            <!-- Contact Form Card -->
+            <Border Width="1000" Grid.Row="1" Style="{StaticResource CardStyle}" 
+                    MaxWidth="600" Margin="40,20" 
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ScrollViewer>
+                    <StackPanel Margin="40,30">
+
+                        <StackPanel Margin="0,0,0,20">
+                            <TextBlock Text="Email Address" FontWeight="SemiBold" 
+                                  Foreground="#333" Margin="0,0,0,5"/>
+                            <TextBox x:Name="EmailTextBox" Style="{StaticResource InputStyle}"
+                                Background="White"/>
+                        </StackPanel>
+
+                        <StackPanel Margin="0,0,0,20">
+                            <TextBlock Text="Subject" FontWeight="SemiBold" 
+                                  Foreground="#333" Margin="0,0,0,5"/>
+                            <TextBox x:Name="SubjectTextBox" MaxLength="50" Style="{StaticResource InputStyle}"
+                                Background="White"/>
+                        </StackPanel>
+
+                        <StackPanel Margin="0,0,0,30">
+                            <TextBlock Text="Message" FontWeight="SemiBold" 
+                                  Foreground="#333" Margin="0,0,0,5"/>
+                            <TextBox x:Name="MessageTextBox" MaxLength="500" TextChanged="MessageTextBox_TextChanged"  Style="{StaticResource InputStyle}"
+                                Background="White" Height="120" TextWrapping="Wrap"
+                                AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+                            <TextBlock x:Name="MessageLengthTextBlock" Text="0 / 500 characters" 
+                                HorizontalAlignment="Right" Margin="0,5,0,0" 
+                                Foreground="#999" FontSize="12"/>
+                        </StackPanel>
+
+                        <!-- Send Button -->
+                        <Button Style="{StaticResource SendButtonStyle}" 
+                            HorizontalAlignment="Center"
+                            Click="SendButton_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="✉" FontSize="18" Margin="0,0,8,0"/>
+                                <TextBlock Text="Send Message"/>
+                            </StackPanel>
+                        </Button>
+
+                        <!-- Status Message -->
+                        <TextBlock x:Name="StatusTextBlock" HorizontalAlignment="Center"
+                              Margin="0,15,0,0" FontWeight="SemiBold"
+                              Visibility="Collapsed"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </Border>
+
+            <!-- Footer -->
+            <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                       HorizontalAlignment="Center" Margin="0,0,0,20">
+                <TextBlock Text="🎲" FontSize="20" Margin="0,0,8,0"/>
+                <TextBlock Text="Thank you for playing Rummikub!" 
+                          FontSize="14" Foreground="#666" VerticalAlignment="Center"/>
+                <TextBlock Text="🎯" FontSize="20" Margin="8,0,0,0"/>
+            </StackPanel>
+            <StackPanel Grid.Row="0" x:Name="HeadBackButtonPanel" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        </Grid>
+    </Grid>
+</Page>
